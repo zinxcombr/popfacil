@@ -1,0 +1,11 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="ballon">
+<g id="ballon_2">
+<path id="Layer 1" fill-rule="evenodd" clip-rule="evenodd" d="M53.0904 83.2313C53.0927 86.7541 52.9007 94.0646 51.2666 94.0646C49.1137 94.0646 46.2353 90.5157 44.3061 88.6407C42.3769 86.7657 36.3832 85.7138 36.4648 82.7228C36.4049 80.9584 43.2489 79.397 46.8865 78.6924C47.9208 79.7269 49.052 80.6776 50.2795 81.5333C51.1869 82.1658 52.1253 82.7314 53.0904 83.2313V83.2313Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" fill-rule="evenodd" clip-rule="evenodd" d="M50.2796 81.5332C64.6581 91.5566 86.8078 84.7621 99.7523 66.3573C112.697 47.9525 111.534 24.907 97.1558 14.8836C82.7773 4.86027 60.6276 11.6548 47.683 30.0595C34.7385 48.4643 35.901 71.5099 50.2796 81.5332V81.5332Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Path" d="M79.8087 18.1865C74.3899 18.8332 68.8306 21.1455 63.8372 24.9068" stroke="#E83E8C" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Path_2" d="M58.4854 29.7495C57.1989 31.1371 55.9815 32.638 54.8497 34.2471" stroke="#E83E8C" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 4" d="M12 109.899C12 109.899 17.7084 101.016 29.6631 99.6507C39.2829 98.5523 43.7456 89.4019 43.7456 89.4019" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

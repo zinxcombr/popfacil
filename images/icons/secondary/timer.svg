@@ -1,0 +1,8 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="timer">
+<g id="timer_2">
+<path id="Layer 1" d="M25.1912 25.4852C16.4066 34.3441 10.9803 46.5383 10.9803 60C10.9803 87.0727 32.9272 109.02 60 109.02C87.0727 109.02 109.02 87.0727 109.02 60C109.02 32.9272 87.0727 10.9803 60 10.9803V29.1128" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" fill-rule="evenodd" clip-rule="evenodd" d="M35.1697 36.9995C34.253 35.6245 34.6234 35.2521 35.9996 36.1696L65.1242 55.586C69.3828 58.425 69.9014 63.6601 66.2808 67.2807V67.2807C62.661 70.9005 57.423 70.3795 54.5861 66.1242L35.1697 36.9995V36.9995Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

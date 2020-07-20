@@ -1,0 +1,14 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="router">
+<g id="router_2">
+<path id="Layer 1" d="M25 80H35" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="Layer 2" x="10" y="60" width="100" height="44" rx="10" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 3" d="M80 80.1038H97.8373" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 4" d="M90 60V30" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 5" d="M110 30C110 18.9543 101.046 10 90 10C78.9543 10 70 18.9543 70 30" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 6" d="M100 30C100 24.4772 95.5228 20 90 20C84.4772 20 80 24.4772 80 30" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 7" d="M20 104H30V105C30 107.761 27.7614 110 25 110V110C22.2386 110 20 107.761 20 105V104Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 8" d="M90 104H100V105C100 107.761 97.7614 110 95 110V110C92.2386 110 90 107.761 90 105V104Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,13 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="healthcare-bill">
+<g id="healthcare-bill_2">
+<path id="Layer 1" fill-rule="evenodd" clip-rule="evenodd" d="M80 10.2301L79.7695 10H20L20 110H100V30.2021L99.7976 30H80V10.2301V10.2301Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" d="M80 10L100 30" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 3" d="M30 60H80" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 4" d="M30 70H80" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 5" d="M30 80H80" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 6" d="M30 90H80" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 7" fill-rule="evenodd" clip-rule="evenodd" d="M46.8 20.7183C46.8 20.3211 46.4769 20 46.0784 20H37.9216C37.5222 20 37.2 20.3216 37.2 20.7183V27.2H30.7183C30.3211 27.2 30 27.5231 30 27.9216V36.0784C30 36.4778 30.3216 36.8 30.7183 36.8H37.2V43.2817C37.2 43.6789 37.5231 44 37.9216 44H46.0784C46.4778 44 46.8 43.6784 46.8 43.2817V36.8H53.2817C53.6789 36.8 54 36.4769 54 36.0784V27.9216C54 27.5222 53.6784 27.2 53.2817 27.2H46.8V20.7183Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

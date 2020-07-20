@@ -1,0 +1,11 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="mouse-1">
+<g id="mouse-1_2">
+<path id="Layer 1" d="M30 30C30 18.9543 38.9543 10 50 10H70C81.0457 10 90 18.9543 90 30V80C90 96.5685 76.5685 110 60 110V110C43.4315 110 30 96.5685 30 80V30Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Path" d="M60 10V16" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Path_2" d="M60 34V40" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Path_3" d="M90 40H30" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="Layer 4" x="56" y="16" width="8" height="18" rx="4" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

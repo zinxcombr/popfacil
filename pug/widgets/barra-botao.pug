@@ -1,0 +1,56 @@
+doctype html
+html(lang="pt-br")
+	head
+		include /utilities/_head.pug
+	body
+
+
+		// HEADER
+		#header.bg-white
+			include /utilities/_navbar.pug
+			+navbar-mixin('navbar-light', 'btn-secondary')
+			#breadcrumbs.container
+				.row
+					.col
+						hr.mt-10
+						include /utilities/_breadcrumb.pug
+						+breadcrumb-mixin('text-muted', ['Home', 'Widgets', 'Notificação de Cookie'])
+			#title.container
+				.row
+					.col.text-center.pt-8
+						h1.display-2.mb-3 
+							| Barra de Botão
+						p.lead.text-muted.mb-14 Moste Cookies facilmente para eles
+
+
+						
+
+		// TEXT
+		.container.pb-14
+			.row
+				.col
+					.row.justify-content-center
+						.col-md-5
+							span.h5.text-secondary Utilidade Legal
+							h2.h3.mb-3.mt-3 Notificacao de Aviso de Cookie
+							p The Recent Activity notice shows a supply of people
+							ul.mt-4
+								li Item 1
+								li Item 2
+							a.btn.btn-primary.px-5.mt-4(href="https://popkit.site/register")
+								| Crie sua Notificação de Cookie
+								i.far.fa-arrow-alt-circle-right.ml-2
+						.col-md-5
+							img.w-100(alt='Illustration' src='/images/illustrations/illustration_1.png')
+
+
+
+
+
+		// FOOTER 
+		include /utilities/_footer.pug
+		// light-footer(lead_bg_color, lead_border_color, lead_text_color, lead_btn_color, footer_bg, title_bg, text_color, link_color, subscribe_bg, subscribe_button, logo_file)
+
+		+light-footer('bg-white', '', '', 'btn-secondary', 'bg-light', 'text-dark', 'text-muted', 'text-muted', 'bg-gray', 'btn-gray', '/images/logo-popfacil-color-footer.png')
+
+		include /utilities/_scripts.pug

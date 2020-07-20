@@ -1,0 +1,10 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="football">
+<g id="football_2">
+<path id="Layer 1" fill-rule="evenodd" clip-rule="evenodd" d="M10 28.4102V91.5898C10 96.2346 13.1025 100 16.8734 100H103.127C106.923 100 110 96.2487 110 91.5898V28.4102C110 23.7654 106.898 20 103.127 20H16.8734C13.0773 20 10 23.7513 10 28.4102Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" fill-rule="evenodd" clip-rule="evenodd" d="M10 81.1765V95.2943C10 97.8932 11.6523 100 13.6776 100H106.322C108.353 100 110 97.8602 110 95.2943V81.1765V81.1765H95.1852V38.8235H110V24.7057C110 22.1068 108.348 20 106.322 20H13.6776C11.6465 20 10 22.1398 10 24.7057V38.8235H24.8148V81.1765H10V81.1765Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 3" d="M60 20V100" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 4" fill-rule="evenodd" clip-rule="evenodd" d="M60 71.8816C66.5621 71.8816 71.8817 66.562 71.8817 59.9999C71.8817 53.4378 66.5621 48.1182 60 48.1182C53.4379 48.1182 48.1183 53.4378 48.1183 59.9999C48.1183 66.562 53.4379 71.8816 60 71.8816Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

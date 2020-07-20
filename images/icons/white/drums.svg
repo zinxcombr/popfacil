@@ -1,0 +1,14 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="drums">
+<g id="drums_2">
+<path id="Layer 1" fill-rule="evenodd" clip-rule="evenodd" d="M110 50V100C110 100 98.2109 110.158 60 110.158C21.7891 110.158 10 100 10 100V50C10 55.5228 32.3858 60 60 60C87.6142 60 110 55.5228 110 50V50Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" d="M110.126 54L90.4395 107.597L60 60.5479V60.5479" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 3" d="M10 54L29.687 107.597L60.1265 60.5479V60.5479" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 4" fill-rule="evenodd" clip-rule="evenodd" d="M60 60C87.6142 60 110 55.5228 110 50C110 44.4772 87.6142 40 60 40C32.3858 40 10 44.4772 10 50C10 55.5228 32.3858 60 60 60Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 5" d="M109.5 10.5L81 23" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 6" fill-rule="evenodd" clip-rule="evenodd" d="M75 31C78.3137 31 81 28.3137 81 25C81 21.6863 78.3137 19 75 19C71.6863 19 69 21.6863 69 25C69 28.3137 71.6863 31 75 31Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 7" d="M10.5 10.5L39 22" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 8" fill-rule="evenodd" clip-rule="evenodd" d="M45 31C41.6863 31 39 28.3137 39 25C39 21.6863 41.6863 19 45 19C48.3137 19 51 21.6863 51 25C51 28.3137 48.3137 31 45 31V31Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,12 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="coube">
+<g id="coube_2">
+<rect id="Layer 1" x="40" y="10" width="70" height="70" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="Layer 2" x="10" y="40" width="70" height="70" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Path" d="M110.08 80L80 110" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Path_2" d="M10 110L40.0801 80" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Path_3" d="M110.08 10L80 40" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Path_4" d="M10 40L40.0801 10" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

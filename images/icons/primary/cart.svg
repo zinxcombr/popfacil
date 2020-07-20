@@ -1,0 +1,15 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="cart">
+<g id="cart_2">
+<path id="Layer 1" fill-rule="evenodd" clip-rule="evenodd" d="M20 27H106.958C108.752 27 110.144 28.564 109.938 30.346L104.325 78.6919C103.973 81.7176 101.411 84 98.3648 84H26.7076L20 27Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" d="M30 25.9967V17.337C30 16.7828 30.4553 16.3335 30.9918 16.3335H49.0082C49.556 16.3335 50 16.7782 50 17.337" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 3" d="M50 25.9991V12.0009C50 11.4481 50.4475 11 50.9988 11H99.0012C99.5528 11 100 11.4446 100 12.0009V25.9991" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 4" d="M93.3921 91H27.5581L26.4351 81.7974" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 5" d="M20.0366 28.3857L18.5764 17.1299L10.0366 10.9453" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 6" fill-rule="evenodd" clip-rule="evenodd" d="M30 111C35.5228 111 40 106.523 40 101C40 95.4772 35.5228 91 30 91C24.4772 91 20 95.4772 20 101C20 106.523 24.4772 111 30 111Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 7" fill-rule="evenodd" clip-rule="evenodd" d="M30 104C31.6569 104 33 102.657 33 101C33 99.3431 31.6569 98 30 98C28.3431 98 27 99.3431 27 101C27 102.657 28.3431 104 30 104Z" fill="#1BB4BF" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 8" fill-rule="evenodd" clip-rule="evenodd" d="M93 111C98.5228 111 103 106.523 103 101C103 95.4772 98.5228 91 93 91C87.4772 91 83 95.4772 83 101C83 106.523 87.4772 111 93 111Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 9" fill-rule="evenodd" clip-rule="evenodd" d="M93 104C94.6569 104 96 102.657 96 101C96 99.3431 94.6569 98 93 98C91.3431 98 90 99.3431 90 101C90 102.657 91.3431 104 93 104Z" fill="#1BB4BF" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

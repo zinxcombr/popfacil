@@ -1,0 +1,11 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="chart-up">
+<g id="chart-up_2">
+<path id="Layer 1" d="M85 33C85 31.3431 86.3431 30 88 30H107C108.657 30 110 31.3431 110 33V110H85V33Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" d="M60 53C60 51.3431 61.3431 50 63 50H82C83.6569 50 85 51.3431 85 53V110H60V53Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 3" d="M35 73C35 71.3431 36.3431 70 38 70H57C58.6569 70 60 71.3431 60 73V110H35V73Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 4" d="M10 93C10 91.3431 11.3431 90 13 90H32C33.6569 90 35 91.3431 35 93V110H10V93Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 5" fill-rule="evenodd" clip-rule="evenodd" d="M54.4386 24.3512L59.634 29.5465C60.0244 29.937 60.3427 29.8051 60.3433 29.2503L60.3633 11.0034C60.3639 10.4408 59.9147 9.99939 59.3599 10L41.113 10.02C40.5504 10.0206 40.4256 10.3382 40.8168 10.7294L45.9951 15.9076L29.9894 31.9133C28.8213 33.0814 28.8218 34.979 29.9925 36.1497L34.1965 40.3537C35.3641 41.5213 37.2639 41.5258 38.4329 40.3568L54.4386 24.3512V24.3512Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

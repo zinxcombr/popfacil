@@ -1,0 +1,8 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="video-1">
+<g id="camera-1">
+<path id="Path" fill-rule="evenodd" clip-rule="evenodd" d="M71.1869 53.8996V47.0056C71.1869 44.2384 68.9442 42 66.1778 42H35.0091C32.2436 42 30 44.2411 30 47.0056V72.9944C30 75.7616 32.2427 78 35.0091 78H66.1778C68.9433 78 71.1869 75.7589 71.1869 72.9944V66.1673L85.5696 73.6643C88.0171 74.94 90 73.7356 90 70.9748V49.0921C90 46.3351 88.0165 45.1272 85.5696 46.4026L71.1869 53.8996V53.8996Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Path_2" fill-rule="evenodd" clip-rule="evenodd" d="M10 15.9931C10 12.6832 12.6877 10 15.9931 10H104.007C107.317 10 110 12.6877 110 15.9931V104.007C110 107.317 107.312 110 104.007 110H15.9931C12.6832 110 10 107.312 10 104.007V15.9931V15.9931Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

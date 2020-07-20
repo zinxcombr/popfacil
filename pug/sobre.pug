@@ -1,0 +1,126 @@
+doctype html
+html(lang="pt-br")
+	head
+		include /utilities/_head.pug
+	body
+
+
+		// HEADER
+		#header.bg-primary.mb-1(style="background: linear-gradient(45deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2)) 0%, url('/images/photos/room-FZrn8fhqpp8-unsplash.jpg') center; background-size: cover;")
+			include /utilities/_navbar-transparent.pug
+			+navbar-mixin('navbar-dark', 'btn-secondary')
+			.container
+				.row
+					.col
+						hr.mt-10.border-light.opacity-1
+						include /utilities/_breadcrumb.pug
+						+breadcrumb-mixin('text-white', ['Home', 'Pages', 'About'])
+				.row
+					.col-lg-9.col-md-12.pb-12.pt-8.mx-auto
+						h1.display-2.text-white.mb-3  
+							| Sobre nós
+						p.lead.text-white To spread the power of good&nbsp;design
+
+
+
+		// SOBRE NOS
+		.mt-10.mb-8
+			.container
+				.row
+					.col-lg-9.col-md-12.col-sm-12.mx-auto
+						p.lead
+							| By accessing the website, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark
+							sup 1
+							|
+							| with any applicable local laws. If you do not agree with any of these terms, you are prohibited
+							sup 2
+							|
+							| from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law. 
+						p.lead.mb-7
+							| Use Replacer as a
+							|
+							a(href="#") starting point
+							|
+							| in your next project or choose predesigned elements to customize and shape it at your own will 
+						.row
+							.col-1
+								i.fas.fa-info-circle.text-muted
+							.col-11
+								p.text-muted.mr-10 1. By accessing the website, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws
+								p.text-muted.mr-10 2. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law
+
+
+		// TEAM
+		#team.mb-12
+			.container
+				.row
+					.col-lg-9.col-md-10.col-sm-12.mx-auto
+						h2.display-4.mb-4
+							| Our team
+						p.lead.mb-6
+							| Use Replacer as a
+							|
+							a(href="#") starting point
+							|
+							| for your next project
+						.card-group
+							.card.border-0.p-0.mr-6.mb-5
+								a(href="#")
+									img.card-img-top.rounded(alt='Photo' src='/images/people/6.jpg')
+								.card-body.mt-4.p-0.bg-transparent
+									a.card-link(href="#")
+										h5.card-title.text-dark.mb-0 Michael
+									span.card-text.text-muted Co-founder & CEO
+							.card.border-0.p-0.mr-6.mb-5
+								a(href="#")
+									img.card-img-top.rounded(alt='Photo' src='/images/people/3.jpg')
+								.card-body.mt-4.p-0.bg-transparent
+									a.card-link(href="#")
+										h5.card-title.text-dark.mb-0 Boris
+									span.card-text.text-muted Co-founder & CTO
+							.card.border-0.p-0.mr-6.mb-5
+								a(href="#")
+									img.card-img-top.rounded(alt='Photo' src='/images/people/1.jpg')
+								.card-body.mt-4.p-0.bg-transparent
+									a.card-link(href="#")
+										h5.card-title.text-dark.mb-0 Sasha
+									span.card-text.text-muted Lead manager
+				.row
+					.col-lg-9.col-md-10.col-sm-12.mx-auto.mb-4
+						.card-group
+							.card.border-0.p-0.mr-6.mb-5
+								a(href="#")
+									img.card-img-top.rounded(alt='Photo' src='/images/people/2.jpg')
+								.card-body.mt-4.p-0.bg-transparent
+									a.card-link(href="#")
+										h5.card-title.text-dark.mb-0 Yan
+									span.card-text.text-muted Lead designer
+							.card.border-0.p-0.mr-6.mb-5
+								a(href="#")
+									img.card-img-top.rounded(alt='Photo' src='/images/people/5.jpg')
+								.card-body.mt-4.p-0.bg-transparent
+									a.card-link(href="#")
+										h5.card-title.text-dark.mb-0 Michael
+									span.card-text.text-muted CMO
+							.card.border-0.p-0.mr-6.mb-5
+								a(href="#")
+									img.card-img-top.rounded(alt='Photo' src='/images/people/4.jpg')
+								.card-body.mt-4.p-0.bg-transparent
+									a.card-link(href="#")
+										h5.card-title.text-dark.mb-0 Alisa
+									span.card-text.text-muted Co-founder
+				.row
+					.col-lg-9.col-md-10.col-sm-12.mx-auto.mb-4
+						button.btn.btn-outline-primary(type='submit')
+							| Become part of our team
+
+
+
+
+		// FOOTER 
+		include /utilities/_footer.pug
+		// light-footer(lead_bg_color, lead_border_color, lead_text_color, lead_btn_color, footer_bg, title_bg, text_color, link_color, subscribe_bg, subscribe_button, logo_file)
+
+		+light-footer('bg-white', '', '', 'btn-secondary', 'bg-light', 'text-dark', 'text-muted', 'text-muted', 'bg-gray', 'btn-gray', '/images/logo-popfacil-color-footer.png')
+
+		include /utilities/_scripts.pug

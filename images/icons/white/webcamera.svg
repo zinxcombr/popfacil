@@ -1,0 +1,13 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="webcamera">
+<g id="webcamera_2">
+<path id="Path" d="M86.9197 91.0635L103.754 104.914C107.167 107.723 106.349 110 101.942 110H23.9447H17.9423C13.5199 110 12.6943 107.73 16.116 104.914L33.0121 91.0125" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" fill-rule="evenodd" clip-rule="evenodd" d="M60 100C84.8528 100 105 79.8528 105 55C105 30.1472 84.8528 10 60 10C35.1472 10 15 30.1472 15 55C15 79.8528 35.1472 100 60 100Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 3" fill-rule="evenodd" clip-rule="evenodd" d="M60 77.5C72.4264 77.5 82.5 67.4264 82.5 55C82.5 42.5736 72.4264 32.5 60 32.5C47.5736 32.5 37.5 42.5736 37.5 55C37.5 67.4264 47.5736 77.5 60 77.5Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 4" fill-rule="evenodd" clip-rule="evenodd" d="M60 66.25C66.2132 66.25 71.25 61.2132 71.25 55C71.25 48.7868 66.2132 43.75 60 43.75C53.7868 43.75 48.75 48.7868 48.75 55C48.75 61.2132 53.7868 66.25 60 66.25Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 5" fill-rule="evenodd" clip-rule="evenodd" d="M60 20C62.7614 20 65 17.7614 65 15C65 12.2386 62.7614 10 60 10C57.2386 10 55 12.2386 55 15C55 17.7614 57.2386 20 60 20Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 6" d="M82.5 55H105" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 7" d="M15 55H37.5" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,10 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="browser">
+<g id="browser_2">
+<rect id="Layer 1" x="10" y="15" width="100" height="90" rx="3" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" d="M10 18C10 16.3431 11.3431 15 13 15H107C108.657 15 110 16.3431 110 18V31H10V18Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 3" d="M110 31V33C111.105 33 112 32.1046 112 31H110ZM10 31H8C8 32.1046 8.89543 33 10 33V31ZM110 29H10V33H110V29ZM12 31V18H8V31H12ZM12 18C12 17.4477 12.4477 17 13 17V13C10.2386 13 8 15.2386 8 18H12ZM13 17H107V13H13V17ZM107 17C107.552 17 108 17.4477 108 18H112C112 15.2386 109.761 13 107 13V17ZM108 18V31H112V18H108Z" fill="#1BB4BF"/>
+<path id="Layer 4" d="M17 23H32.28" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

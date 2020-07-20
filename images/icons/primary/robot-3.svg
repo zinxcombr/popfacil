@@ -1,0 +1,14 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="robot-3">
+<g id="robot-3_2">
+<path id="Layer 1" d="M60 34.5086V20" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" fill-rule="evenodd" clip-rule="evenodd" d="M60 20C62.7614 20 65 17.7614 65 15C65 12.2386 62.7614 10 60 10C57.2386 10 55 12.2386 55 15C55 17.7614 57.2386 20 60 20Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 3" fill-rule="evenodd" clip-rule="evenodd" d="M25 70.0023C25 50.671 40.6658 35 60 35C79.33 35 95 50.6768 95 70.0023V110H25V70.0023V70.0023Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="Layer 4" x="35" y="65" width="50" height="12" rx="6" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 5" d="M41 71H79" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 6" d="M75 90V90C75 92.7614 73.3228 95 71.246 95H48.754C46.6807 95 45 92.7558 45 90V90V90" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 7" fill-rule="evenodd" clip-rule="evenodd" d="M105 80C105 74.6308 100.567 70.2488 95 70V90C100.567 89.7512 105 85.3692 105 80Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 8" fill-rule="evenodd" clip-rule="evenodd" d="M15 80C15 74.6308 19.4332 70.2488 25 70V90C19.4332 89.7512 15 85.3692 15 80Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

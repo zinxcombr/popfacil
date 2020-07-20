@@ -1,0 +1,11 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="candle">
+<g id="candle_2">
+<path id="Layer 1" fill-rule="evenodd" clip-rule="evenodd" d="M95 95C90.2293 104.214 80.7189 110 70.3427 110H49.6573C39.2811 110 29.7707 104.214 25 95V95H95V95Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" fill-rule="evenodd" clip-rule="evenodd" d="M45 95V40H75V95H45Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 3" fill-rule="evenodd" clip-rule="evenodd" d="M71.0596 29.5768C71.0596 35.3334 66.393 40 60.6364 40C60.5812 40 60.526 39.9996 60.471 39.9987C60.4159 39.9996 60.3608 40 60.3055 40C54.549 40 49.8823 35.3333 49.8823 29.5768C49.8823 24.3151 52.8791 23.3127 55.2574 18.9823C57.6357 14.6519 55.82 10 55.82 10C55.82 10 71.0596 13.8567 71.0596 29.5768Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 4" d="M52.5 40.5V64.5208" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 5" d="M60 40.5V51.5" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

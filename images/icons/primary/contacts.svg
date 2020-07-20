@@ -1,0 +1,12 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="contacts">
+<g id="contacts_2">
+<path id="Layer 1" fill-rule="evenodd" clip-rule="evenodd" d="M95 30V100H20C18.3642 100 16.9118 100.786 15.9996 102H15V14.9953C15 12.2286 17.2405 10 20.0044 10H94.5H105V30H95V30Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" d="M74.5785 76C74.0252 66.7777 62.076 68.1198 60.2974 63.3381C60.1491 61.7016 59.8036 59.3967 59.8036 59.3967V59.3967L62.5849 54.3033C62.5849 54.3033 64.0009 53.4854 64.2699 51.2407C64.4151 50.0356 63.8084 49.1308 63.4572 48.9176C64.4054 46.0658 66.3085 36.1655 55.2893 36C46.3005 36.1655 45.0907 41.3339 47.0613 48.9176C46.711 49.1308 46.1644 50.0356 46.3086 51.2407C46.5786 53.4854 48.1646 54.3033 48.1646 54.3033L50.6718 59.1701C50.6718 59.1701 50.4822 61.7016 50.334 63.3381C48.5553 68.1198 36.5543 66.7777 36 76" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="Layer 3" x="95" y="30" width="10" height="20" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="Layer 4" x="95" y="50" width="10" height="20" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="Layer 5" x="95" y="70" width="10" height="20" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 6" fill-rule="evenodd" clip-rule="evenodd" d="M20 100C17.2386 100 15 102.239 15 105C15 107.761 17.2386 110 20 110H95V100H20V100Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

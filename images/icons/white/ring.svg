@@ -1,0 +1,13 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="ring">
+<g id="ring_2">
+<path id="Path" fill-rule="evenodd" clip-rule="evenodd" d="M60 110C80.9868 110 98 92.9868 98 72C98 51.0132 80.9868 34 60 34C39.0132 34 22 51.0132 22 72C22 92.9868 39.0132 110 60 110V110Z" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Path_2" fill-rule="evenodd" clip-rule="evenodd" d="M60 102.4C76.7894 102.4 90.4 88.7896 90.4 72.0001C90.4 55.2106 76.7894 41.6001 60 41.6001C43.2105 41.6001 29.6 55.2106 29.6 72.0001C29.6 88.7896 43.2105 102.4 60 102.4V102.4Z" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" fill-rule="evenodd" clip-rule="evenodd" d="M46.4039 18.6812C46.1689 18.2681 46.2571 17.7466 46.615 17.4338L54.8372 10.2471C55.0194 10.0878 55.2532 10 55.4953 10H64.7177C64.9645 10 65.2027 10.0913 65.3862 10.2563L73.3766 17.4395C73.7229 17.7508 73.8085 18.2599 73.5831 18.6673L65.3865 33.4841C65.2104 33.8024 64.8753 34 64.5115 34H55.7014C55.3419 34 55.01 33.807 54.8322 33.4945L46.4039 18.6812Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 3" d="M47.6 18.0002H73.6" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 4" d="M60.4 18.3999V33.5999" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 5" d="M65.2 10.7998L60.4 18.7998" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 6" d="M55.6 10.7998L60.4 18.7998" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

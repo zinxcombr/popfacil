@@ -1,0 +1,14 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="camera-2">
+<g id="camera-2_2">
+<path id="Layer 1" fill-rule="evenodd" clip-rule="evenodd" d="M90 33V30C90 28.3431 91.3486 27 93.0003 27H96.9997C98.6567 27 100 28.3465 100 30V33H90Z" fill="white" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" fill-rule="evenodd" clip-rule="evenodd" d="M35.915 33H12.9928C11.338 33 10 34.3473 10 36.0092V98.9908C10 100.653 11.3399 102 12.9928 102H107.007C108.662 102 110 100.653 110 98.9908V36.0092C110 34.3474 108.66 33 107.007 33H84.1301L76.8404 20.5813C76.0036 19.1557 73.9831 18 72.3276 18H47.7852C46.1392 18 44.104 19.1557 43.2608 20.5813L35.915 33V33Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 3" fill-rule="evenodd" clip-rule="evenodd" d="M20 45C21.6569 45 23 43.6569 23 42C23 40.3431 21.6569 39 20 39C18.3431 39 17 40.3431 17 42C17 43.6569 18.3431 45 20 45Z" fill="white" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 4" fill-rule="evenodd" clip-rule="evenodd" d="M30 45C31.6569 45 33 43.6569 33 42C33 40.3431 31.6569 39 30 39C28.3431 39 27 40.3431 27 42C27 43.6569 28.3431 45 30 45Z" fill="white" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="Layer 5" x="20" y="52" width="50" height="40" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 6" fill-rule="evenodd" clip-rule="evenodd" d="M90 92C96.6274 92 102 86.6274 102 80C102 73.3726 96.6274 68 90 68C83.3726 68 78 73.3726 78 80C78 86.6274 83.3726 92 90 92Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 7" d="M90 75V85" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 8" d="M95 80H85" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

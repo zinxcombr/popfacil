@@ -1,0 +1,530 @@
+doctype html
+html(lang="pt-br")
+	head
+		include /utilities/_head.pug
+	body
+
+
+						
+		// HEADER
+		#header.bg-white
+			include /utilities/_navbar.pug
+			+navbar-mixin('navbar-light', 'btn-secondary')
+			#breadcrumbs.container
+				.row
+					.col
+						hr.mt-10
+						include /utilities/_breadcrumb.pug
+						+breadcrumb-mixin('text-muted', ['Home', 'Pages', 'Pricing'])
+			#title.container
+				.row
+					.col.text-center.pt-8
+						h1.display-2.mb-3 
+							| Good prices
+						p.lead.text-muted.mb-7 To spread the power of good design
+
+
+
+		// PRECOS
+		.pt-6.bg-white
+			.container
+				.tab-content
+					.tab-pane.fade.show.active(id="tab-1" role="tabpanel" aria-labelledby="nav-tab-1")
+						.row
+							.col
+								.card-deck
+									.card.mx-2
+										.card-body.px-6.pt-6
+											img.mb-3(alt='Icon' src='/images/icons/primary/home.svg', height='64')
+											h3.h5 Personal
+											p.mb-0.lead
+												| For personal use
+											hr.my-5
+											div.mb-6
+												span.h1.display-4
+													| Free
+											.initialism.text-muted.mt-4.mb-3 Includes
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span Advanced SEO
+													a.mx-2.text-muted(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span Security
+													a.mx-2.text-muted(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span 5 Collaborators
+											.mb-2.d-flex.align-items-start &nbsp;
+											.mb-2.d-flex.align-items-start &nbsp;
+											.initialism.text-muted.mt-4.mb-3 Features
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span Integrations
+													a.mx-2.text-muted(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span Export reports
+													a.mx-2.text-muted(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span Customized billing
+											.mb-2.d-flex.align-items-start &nbsp;
+											.mb-2.d-flex.align-items-start &nbsp;
+										.card-footer.bg-white.border-0.px-6.pb-3
+											a.btn.btn-primary-light.text-primary.w-100.mb-3(href='#') Get started
+									.card.bg-primary.text-white.mx-2
+										.card-body.px-6.pt-6
+											img.mb-3(alt='Icon' src='/images/icons/white/users-group.svg', height='64')
+											h3.h5 Team
+											p.mb-0.lead.text-white
+												| For teams up to 5 members
+											hr.my-5.opacity-3
+											div.mb-6
+												span.h1.display-4
+													| $99
+												span.text-white.initialism
+													| &nbsp;/ month
+											.initialism.text-white.mt-4.mb-3 Includes
+											.mb-2.d-flex.align-items-start
+												.text-white.mr-3
+													i.fas.fa-check
+												span Advanced SEO
+													a.mx-2.text-white(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start
+												.text-white.mr-3
+													i.fas.fa-check
+												span Security
+													a.mx-2.text-white(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start
+												.text-white.mr-3
+													i.fas.fa-check
+												span 5 Collaborators
+											.mb-2.d-flex.align-items-start
+												.text-white.mr-3
+													i.fas.fa-check
+												span Private projects
+													a.mx-2.text-white(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start &nbsp;
+											.initialism.text-white.mt-4.mb-3 Features
+											.mb-2.d-flex.align-items-start
+												.text-white.mr-3
+													i.fas.fa-check
+												span Integrations
+													a.mx-2.text-white(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start
+												.text-white.mr-3
+													i.fas.fa-check
+												span Export reports
+													a.mx-2.text-white(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start
+												.text-white.mr-3
+													i.fas.fa-check
+												span Customized billing
+											.mb-2.d-flex.align-items-start
+												.text-white.mr-3
+													i.fas.fa-check
+												span Forced browsing
+													a.mx-2.text-white(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start &nbsp;
+										.card-footer.bg-primary.border-0.px-6.pb-3
+											a.btn.btn-white.w-100.mb-3(href='#') Get started
+									.card.mx-2
+										.card-body.px-6.pt-6
+											img.mb-3(alt='Icon' src='/images/icons/primary/moon.svg', height='64')
+											h3.h5 Interprise
+											p.mb-0.lead
+												| Best for corporations
+											hr.my-5
+											div.mb-6
+												span.h1.display-4
+													| $229
+												span.text-muted.initialism
+													| &nbsp;/ month
+											.initialism.text-muted.mt-4.mb-3 Includes
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span Advanced SEO
+													a.mx-2.text-muted(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span Security
+													a.mx-2.text-muted(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span 5 Collaborators
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span Private projects
+													a.mx-2.text-muted(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span Grids
+											.initialism.text-muted.mt-4.mb-3 Features
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span Integrations
+													a.mx-2.text-muted(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span Export reports
+													a.mx-2.text-muted(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span Customized billing
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span Forced browsing
+													a.mx-2.text-muted(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span 2FA
+										.card-footer.bg-white.border-0.px-6.pb-3
+											a.btn.btn-primary-light.text-primary.w-100.mb-3(href='#') Get started
+					.tab-pane.fade.show(id="tab-2" role="tabpanel" aria-labelledby="nav-tab-2")
+						.row
+							.col
+								.card-deck
+									.card.mx-2
+										.card-body.px-6.pt-6
+											img.mb-3(alt='Icon' src='/images/icons/primary/home.svg', height='64')
+											h3.h5 
+												| Personal
+												|
+												|
+												span.text-muted.font-weight-normal (annually)
+											p.mb-0.lead
+												| For personal use
+											hr.my-5
+											div.mb-6
+												span.h1.display-4
+													| Free
+											.initialism.text-muted.mt-4.mb-3 Includes
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span Advanced SEO
+													a.mx-2.text-muted(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span Security
+													a.mx-2.text-muted(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span 5 Collaborators
+											.mb-2.d-flex.align-items-start &nbsp;
+											.mb-2.d-flex.align-items-start &nbsp;
+											.initialism.text-muted.mt-4.mb-3 Features
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span Integrations
+													a.mx-2.text-muted(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span Export reports
+													a.mx-2.text-muted(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span Customized billing
+											.mb-2.d-flex.align-items-start &nbsp;
+											.mb-2.d-flex.align-items-start &nbsp;
+										.card-footer.bg-white.border-0.px-6.pb-3
+											a.btn.btn-primary-light.text-primary.w-100.mb-3(href='#') Get started
+									.card.bg-primary.text-white.mx-2
+										.card-body.px-6.pt-6
+											img.mb-3(alt='Icon' src='/images/icons/white/users-group.svg', height='64')
+											h3.h5 
+												| Team
+												|
+												|
+												span.text-white.font-weight-normal (annually)
+											p.mb-0.lead.text-white
+												| For teams up to 5 members
+											hr.my-5.opacity-3
+											div.mb-6
+												span.h1.display-4
+													| $129
+												span.text-white.initialism
+													| &nbsp;/ month
+											.initialism.text-white.mt-4.mb-3 Includes
+											.mb-2.d-flex.align-items-start
+												.text-white.mr-3
+													i.fas.fa-check
+												span Advanced SEO
+													a.mx-2.text-white(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start
+												.text-white.mr-3
+													i.fas.fa-check
+												span Security
+													a.mx-2.text-white(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start
+												.text-white.mr-3
+													i.fas.fa-check
+												span 5 Collaborators
+											.mb-2.d-flex.align-items-start
+												.text-white.mr-3
+													i.fas.fa-check
+												span Private projects
+													a.mx-2.text-white(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start &nbsp;
+											.initialism.text-white.mt-4.mb-3 Features
+											.mb-2.d-flex.align-items-start
+												.text-white.mr-3
+													i.fas.fa-check
+												span Integrations
+													a.mx-2.text-white(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start
+												.text-white.mr-3
+													i.fas.fa-check
+												span Export reports
+													a.mx-2.text-white(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start
+												.text-white.mr-3
+													i.fas.fa-check
+												span Customized billing
+											.mb-2.d-flex.align-items-start
+												.text-white.mr-3
+													i.fas.fa-check
+												span Forced browsing
+													a.mx-2.text-white(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start &nbsp;
+										.card-footer.bg-primary.border-0.px-6.pb-3
+											a.btn.btn-white.w-100.mb-3(href='#') Get started
+									.card.mx-2
+										.card-body.px-6.pt-6
+											img.mb-3(alt='Icon' src='/images/icons/primary/moon.svg', height='64')
+											h3.h5 
+												| Interprise
+												|
+												|
+												span.text-muted.font-weight-normal (annually)
+											p.mb-0.lead
+												| Best for corporations
+											hr.my-5
+											div.mb-6
+												span.h1.display-4
+													| $999
+												span.text-muted.initialism
+													| &nbsp;/ month
+											.initialism.text-muted.mt-4.mb-3 Includes
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span Advanced SEO
+													a.mx-2.text-muted(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span Security
+													a.mx-2.text-muted(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span 5 Collaborators
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span Private projects
+													a.mx-2.text-muted(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span Grids
+											.initialism.text-muted.mt-4.mb-3 Features
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span Integrations
+													a.mx-2.text-muted(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span Export reports
+													a.mx-2.text-muted(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span Customized billing
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span Forced browsing
+													a.mx-2.text-muted(href="#", data-toggle="tooltip" data-placement="top" title="Tooltip on top")
+														i.fas.fa-question-circle
+											.mb-2.d-flex.align-items-start
+												.text-primary.mr-3
+													i.fas.fa-check
+												span 2FA
+										.card-footer.bg-white.border-0.px-6.pb-3
+											a.btn.btn-primary-light.text-primary.w-100.mb-3(href='#') Get started
+
+
+		// TESTIMONIALS
+		#testimonials.pb-17.pt-10
+			.container
+				.row.carousel-3-dots
+					.card.pt-3.rounded-0.border-0.mx-1.bg-transparent
+						.card-body.text-center
+							.mb-3.text-warning
+								i.fas.fa-star.mr-1
+								i.fas.fa-star.mr-1
+								i.fas.fa-star.mr-1
+								i.fas.fa-star.mr-1
+								i.fas.fa-star-half-alt.mr-2
+							h5.mb-4
+								| Marta Markes 
+							p.mb-0.text-muted.lead
+								| If you want to add a bit of noise in your design, so it did not look too boring, you can use ready-made dot background system or make your own background with Figma file, which is also included
+					.card.pt-3.rounded-0.border-0.mx-1.bg-transparent
+						.card-body.text-center
+							.mb-3.text-warning
+								i.fas.fa-star.mr-1
+								i.fas.fa-star.mr-1
+								i.fas.fa-star.mr-1
+								i.fas.fa-star.mr-1
+								i.fas.fa-star-half-alt.mr-2
+							h5.mb-4
+								| Marta Markes 
+							p.mb-0.text-muted.lead
+								| If you want to add a bit of noise in your design, so it did not look too boring, you can use ready-made dot background system or make your own background with Figma file, which is also included
+					.card.pt-3.rounded-0.border-0.mx-1.bg-transparent
+						.card-body.text-center
+							.mb-3.text-warning
+								i.fas.fa-star.mr-1
+								i.fas.fa-star.mr-1
+								i.fas.fa-star.mr-1
+								i.fas.fa-star.mr-1
+								i.fas.fa-star-half-alt.mr-2
+							h5.mb-4
+								| Marta Markes 
+							p.mb-0.text-muted.lead
+								| If you want to add a bit of noise in your design, so it did not look too boring, you can use ready-made dot background system or make your own background with Figma file, which is also included
+					.card.pt-3.rounded-0.border-0.mx-1.bg-transparent
+						.card-body.text-center
+							.mb-3.text-warning
+								i.fas.fa-star.mr-1
+								i.fas.fa-star.mr-1
+								i.fas.fa-star.mr-1
+								i.fas.fa-star.mr-1
+								i.fas.fa-star-half-alt.mr-2
+							h5.mb-4
+								| Marta Markes 
+							p.mb-0.text-muted.lead
+								| If you want to add a bit of noise in your design, so it did not look too boring, you can use ready-made dot background system or make your own background with Figma file, which is also included
+					.card.pt-3.rounded-0.border-0.mx-1.bg-transparent
+						.card-body.text-center
+							.mb-3.text-warning
+								i.fas.fa-star.mr-1
+								i.fas.fa-star.mr-1
+								i.fas.fa-star.mr-1
+								i.fas.fa-star.mr-1
+								i.fas.fa-star-half-alt.mr-2
+							h5.mb-4
+								| Marta Markes 
+							p.mb-0.text-muted.lead
+								| If you want to add a bit of noise in your design, so it did not look too boring, you can use ready-made dot background system or make your own background with Figma file, which is also included
+					.card.pt-3.rounded-0.border-0.mx-1.bg-transparent
+						.card-body.text-center
+							.mb-3.text-warning
+								i.fas.fa-star.mr-1
+								i.fas.fa-star.mr-1
+								i.fas.fa-star.mr-1
+								i.fas.fa-star.mr-1
+								i.fas.fa-star-half-alt.mr-2
+							h5.mb-4
+								| Marta Markes 
+							p.mb-0.text-muted.lead
+								| If you want to add a bit of noise in your design, so it did not look too boring, you can use ready-made dot background system or make your own background with Figma file, which is also included
+
+
+		// FAQ
+		#faq.bg-light.border-top
+			.container.py-10.jarallax(style="background: url('/images/bg/bg_09.svg') center center; background-size: auto 100%;")
+				.row
+					.col-lg-9.col-md-12.col-sm-12.mx-auto
+						.mb-8.initialism.text-muted.text-center Popular questions
+						ul.list-group.mb-9.rounded
+							mixin question(number, question, answer)
+								.card.accordion.border-0.p-0
+									a.card-header.btn.btn-link.px-1.py-2.mb-0.text-dark.collapsed.lead.text-left.border-0.rounded.d-flex(href="#" data-toggle='collapse', data-target="#a" + number, aria-expanded='true', aria-controls="a" + number, id= "q" + number)
+										span.lead.text-dark.mb-0.pb-0.mr-5= question
+									.card-body.collapse.text-muted.pt-0.pb-0.px-1.border-0(id= "a" + number, aria-labelledby = "q" + number)
+										p.my-3.py-0= answer 
+							li.list-group-item
+								+question(1, "How do I cancel service? ", "Yes, we offer discounts on up-front long-term commitments. You will also receive one year off of a new domain registration with your annual purchase, we offer discounts on up-front long-term commitments. You will also receive one year off of a new domain registration with your annual purchase")
+							li.list-group-item
+								+question(2, "Do I need another web host?", "Yes, we offer discounts on up-front long-term commitments. You will also receive one year off of a new domain registration with your annual purchase, we offer discounts on up-front long-term commitments. You will also receive one year off of a new domain registration with your annual purchase")
+							li.list-group-item
+								+question(3, "Can I switch plans?", "Yes, we offer discounts on up-front long-term commitments. You will also receive one year off of a new domain registration with your annual purchase, we offer discounts on up-front long-term commitments. You will also receive one year off of a new domain registration with your annual purchase")
+							li.list-group-item
+								+question(4, "Do I need another web host?", "Yes, we offer discounts on up-front long-term commitments. You will also receive one year off of a new domain registration with your annual purchase, we offer discounts on up-front long-term commitments. You will also receive one year off of a new domain registration with your annual purchase")
+						.text-center
+							a.btn-link.text-primary.hvr-icon-forward(href="/contato.html")
+								| Faça sua pergunta
+								small
+									i.fas.fa-chevron-right.ml-2.hvr-icon
+
+
+
+
+
+
+		// FOOTER 
+		include /utilities/_footer.pug
+		// light-footer(lead_bg_color, lead_border_color, lead_text_color, lead_btn_color, footer_bg, title_bg, text_color, link_color, subscribe_bg, subscribe_button, logo_file)
+
+		+light-footer('bg-white', '', '', 'btn-secondary', 'bg-light', 'text-dark', 'text-muted', 'text-muted', 'bg-gray', 'btn-gray', '/images/logo-popfacil-color-footer.png')
+
+		include /utilities/_scripts.pug

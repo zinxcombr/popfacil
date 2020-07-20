@@ -1,0 +1,167 @@
+extends /docs/docs-layout.pug
+
+block content
+	h1.display-4 Introdução
+	p.mb-4.lead Get started with Replacer theme
+	blockquote.blockquote.lead.text-muted.py-2.px-5.mb-6.mr-10
+		| This  manual will help you launch and customize the theme. Here you will find all stuff you need about files, source codes, build tools and the PUG template engine, but if you have any quedstions or feedback, feel free to write us to 
+		a(href="mailto:hello@getreplacer.com") hello@getreplacer.com
+	h5.mb-3 Built on near-vanilla Bootstrap
+	p.mb-5 Replacer uses Bootstrap components to the fullest! We didn't code new CSS styles if Bootstrap already had the solution, so the theme loads quickly and easy to customize, and in many cases, you won't need to read more documentation than necessary, and all new components are described right here
+	h5.mb-3 Quick start
+	p If you don’t have enough time you can use Replacer theme without deep customization, just use compiled HTML & CSS files, but if you need to go deeper you should do the following:
+	ol.mb-5
+		li Download and unzip the theme to your directory
+		li Open terminal and make sure you have node.js installed by using the following command:
+			|
+			|
+			code.bg-secondary-light.text-secondary.py-1.px-2.rounded node -v
+		li If you don’t have node.js installed, so just visit 
+			a(href="https://nodejs.org/" target="_blank") nodejs.org
+			|
+			| to download it
+		li Install Gulp by run:
+			|
+			|
+			code.bg-secondary-light.text-secondary.py-1.px-2.rounded npm install gulp-cli
+		li Go to the directory where you placed the theme and run: 
+			code.bg-secondary-light.text-secondary.py-1.px-2.rounded npm install
+		li After all run 
+			code.bg-secondary-light.text-secondary.py-1.px-2.rounded gulp
+			|
+			| to start a development server with the live reload in a browser tab, watching and compiling files
+	h5.mb-3 Pug
+	p.mb-0 Pug is a powerful template engine used in Replacer to make partials for easy development, it supports variables, mixins, templates and etc. Pug has a clean, whitespace sensitive syntax for writing HTML, look at a simple example:
+
+	nav.mb-3
+		.nav.nav-tabs(role="tablist")
+			a.nav-item.nav-link.active(id="nav-tab-1" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true")
+				| Pug
+			a.nav-item.nav-link(id="nav-tab-2" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="true")
+				| HTML
+	
+	.border.mb-3.rounded
+		.tab-content.rounded.rounded-top
+			.tab-pane.fade.active.show(id="tab-1" role="tabpanel" aria-labelledby="nav-tab-1")
+				pre.my-0.bg-light.rounded.rounded-top
+					code.language-pug.bg-light
+						|// you can use mixins or templates
+						|mixin custom_button(text, style)
+						|	a.btn.mr-2(href="#", class= style)= text
+						|+custom_button('Primary', 'btn-primary')
+						|+custom_button('Gray', 'btn-gray')
+						|// or just standard syntax
+						|a.btn.btn-secondary-light.text-secondary(href="#")
+						|	| Secondary light
+			.tab-pane.fade(id="tab-2" role="tabpanel" aria-labelledby="nav-tab-2")
+				pre.my-0.bg-light.rounded.rounded-top
+					code.language-markup
+						|&lt;div class="bg-white p-3 rounded rounded-bottom">
+						|	&lt;a class="btn mr-2 btn-primary" href="#">
+						|		Primary
+						|	&lt;/a>
+						|	&lt;a class="btn mr-2 btn-gray" href="#">
+						|		Gray
+						|	&lt;/a>
+						|	&lt;a class="btn btn-secondary-light text-secondary" href="#">
+						|		Secondary light
+						|	&lt;/a>
+						|&lt;/div>
+
+		.bg-white.p-3.rounded.rounded-bottom
+			// you can use mixins or templates
+			mixin custom_button(text, style)
+				a.btn.mr-2(href="#", class= style)= text
+			+custom_button('Primary', 'btn-primary')
+			+custom_button('Gray', 'btn-gray')
+			// or just standard syntax
+			a.btn.btn-secondary-light.text-secondary(href="#")
+				| Secondary light
+
+
+	p.mb-5 The 
+		code.bg-secondary-light.text-secondary.py-1.px-2.rounded gulp
+		|
+		|task is also used to watch and compile Pug files. To learn more about Pug visit 
+		a(href="https://pugjs.org/" target="_blank") pugjs.org
+	h5.mb-3 File structure
+
+	ul.mx-0.px-0.list-unstyled.mb-5
+		li.mb-2
+			code.bg-gray.text-muted.py-1.px-1.rounded
+				span.icon.icon-sm.mr-1
+					i.far.fa-folder
+				| css
+			|
+			| - compiled CSS files
+		li.mb-2
+			code.bg-gray.text-muted.py-1.px-1.rounded
+				span.icon.icon-sm.mr-1
+					i.far.fa-folder
+				| html
+			|
+			| - compiled HTML files
+		li.mb-2
+			code.bg-gray.text-muted.py-1.px-1.rounded
+				span.icon.icon-sm.mr-1
+					i.far.fa-folder
+				| images
+			|
+			| - all photos, illustrations, icons and other graphics
+		li.mb-2
+			code.bg-gray.text-muted.py-1.px-1.rounded
+				span.icon.icon-sm.mr-1
+					i.far.fa-folder
+				| js
+			|
+			| - JavaScript files
+		li.mb-2
+			code.bg-gray.text-muted.py-1.px-1.rounded
+				span.icon.icon-sm.mr-1
+					i.far.fa-folder
+				| pug
+			|
+			| - Pug sources
+		li.mb-2
+			code.bg-gray.text-muted.py-1.px-1.rounded
+				span.icon.icon-sm.mr-1
+					i.far.fa-folder
+				| scss
+			|
+			| - SCSS sources
+		li.mb-2
+			code.bg-gray.text-muted.py-1.px-1.rounded
+				span.icon.icon-sm.mr-1
+					i.far.fa-folder
+				| webfonts
+			|
+			| - FontAwesome font files
+		li.mb-2
+			code.bg-gray.text-muted.py-1.px-1.rounded
+				| gulpfile.js
+			|
+			| - All Gulp commands for watching and compiling
+		li.mb-0
+			code.bg-gray.text-muted.py-1.px-1.rounded
+				| package.json
+			|
+			| - npm dependencies
+
+	h5.mb-3 Customizing
+	p.mb-2 If you are limited in time or you need minor customizing you can use Replacer styles as is, just edit compiled 
+		code.bg-gray.text-dark.py-1.px-2.rounded
+			| css/theme.css
+		|
+		| file, but the preferable way is to edit and compile SCSS files, the main SCSS files to edit are 
+		|
+		code.bg-gray.text-dark.py-1.px-2.rounded
+			| scss/_theme-variables.scss
+		|
+		|
+		| and 
+		|
+		code.bg-gray.text-dark.py-1.px-2.rounded
+			| scss/_theme-core.scss
+		| . For more information about customizing in Bootstrap visit
+		|
+		a(href="https://getbootstrap.com/docs/4.5/getting-started/theming/") getbootstrap.com/docs/4.5/getting-started/theming/

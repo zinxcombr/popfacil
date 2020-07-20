@@ -1,0 +1,59 @@
+doctype html
+html(lang="pt-br")
+	head
+		include /utilities/_head.pug
+	body
+
+
+		// HEADER
+		#header.bg-white
+			include /utilities/_navbar.pug
+			+navbar-mixin('navbar-light', 'btn-secondary')
+			#breadcrumbs.container
+				.row
+					.col
+						hr.mt-10
+						include /utilities/_breadcrumb.pug
+						+breadcrumb-mixin('text-muted', ['Home', 'Pages', 'Pricing'])
+			#title.container
+				.row
+					.col.text-center.pt-8
+						h1.display-2.mb-3 
+							| Soluções
+						p.lead.text-muted.mb-7 To spread the power of good design
+
+
+		// SOLUCOES
+		.bg-white.pb-14
+			.container.rounded-lg(data-aos="fade")
+				.row.text-center
+					.col.mt-8.mb-6
+						span.text-muted.initialism O que gostaria de solucionar?
+
+				.row
+					.col-lg-6.col-md-6.col-sm-12.mb-4
+						a(href="/demo/demo-basic.html")
+							img.w-100.hvr-float.rounded.border(alt='Demo 1' src='/images/homepage/demo1.jpg')
+					.col-lg-6.col-md-6.col-sm-12.mb-4
+						a(href="/demo/demo-startup1.html")
+							img.w-100.hvr-float.rounded(alt='Demo 2' src='/images/homepage/demo2.jpg')
+				.row
+					.col-lg-6.col-md-6.col-sm-12.mb-4
+						a(href="/demo/demo-startup2.html")
+							img.w-100.hvr-float.rounded.border(alt='Demo 3' src='/images/homepage/demo3.jpg')
+					.col-lg-6.col-md-6.col-sm-12.mb-4
+						a(href="/demo/demo-startup3.html")
+							img.w-100.hvr-float.rounded.border(alt='Demo 4' src='/images/homepage/demo4.jpg')
+
+
+						
+
+
+
+		// FOOTER 
+		include /utilities/_footer.pug
+		// light-footer(lead_bg_color, lead_border_color, lead_text_color, lead_btn_color, footer_bg, title_bg, text_color, link_color, subscribe_bg, subscribe_button, logo_file)
+
+		+light-footer('bg-white', '', '', 'btn-secondary', 'bg-light', 'text-dark', 'text-muted', 'text-muted', 'bg-gray', 'btn-gray', '/images/logo-popfacil-color-footer.png')
+
+		include /utilities/_scripts.pug

@@ -1,0 +1,16 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="camera-1">
+<g id="camera-1_2">
+<g id="Layer 1">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M20 33V30V30C20 28.3431 21.3486 27 23.0003 27H26.9997C28.6567 27 30 28.3465 30 30V33" fill="#E83E8C"/>
+<path d="M20 33V30V30C20 28.3431 21.3486 27 23.0003 27H26.9997C28.6567 27 30 28.3465 30 30V33" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path id="Layer 2" fill-rule="evenodd" clip-rule="evenodd" d="M35.915 33H12.9928C11.338 33 10 34.3473 10 36.0092V98.9908C10 100.653 11.3399 102 12.9928 102H107.007C108.662 102 110 100.653 110 98.9908V36.0092C110 34.3474 108.66 33 107.007 33H84.1301L76.8404 20.5813C76.0036 19.1557 73.9831 18 72.3276 18H47.7852C46.1392 18 44.104 19.1557 43.2608 20.5813L35.915 33V33Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 3" fill-rule="evenodd" clip-rule="evenodd" d="M60 95C73.8071 95 85 83.8071 85 70C85 56.1929 73.8071 45 60 45C46.1929 45 35 56.1929 35 70C35 83.8071 46.1929 95 60 95Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 4" fill-rule="evenodd" clip-rule="evenodd" d="M60 88C69.9411 88 78 79.9411 78 70C78 60.0589 69.9411 52 60 52C50.0589 52 42 60.0589 42 70C42 79.9411 50.0589 88 60 88Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 5" d="M57 60C54.3521 60 50 64.1467 50 67" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="Layer 6" x="93" y="42" width="8" height="8" rx="4" fill="#E83E8C" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 7" d="M50 30H70" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,50 @@
+doctype html
+html(lang="pt-br")
+	head
+		include /utilities/_head.pug
+	body
+
+
+		// HEADER
+		#header.bg-white
+			include /utilities/_navbar.pug
+			+navbar-mixin('navbar-light', 'btn-secondary')
+			#breadcrumbs.container
+				.row
+					.col
+						hr.mt-10
+						include /utilities/_breadcrumb.pug
+						+breadcrumb-mixin('text-muted', ['Home', 'Pages', 'Pricing'])
+			#title.container
+				.row
+					.col.text-center.pt-8
+						h1.display-2.mb-3 
+							| Versão Gratuita
+						p.lead.text-muted.mb-10 Learn how & why ProveSource can help you build trust, drive conversions, sales and revenue in your market.
+
+
+						
+
+		// VERSAO GRATUITA
+		.container.pb-14
+				.row.text-center
+					.col-lg-7.col-md-12.col-sm-12.mx-auto
+						.icon.bg-primary-light.rounded-lg.mb-5.p-2
+							img(alt='Icon' src='/images/icons/primary/cursor-click-2.svg', height='48')
+						h5.mb-3 Content-oriented design
+						p.lead.mb-5.mx-0.mx-md-6.mx-lg-8 Replacer is a perfect tool to start making landing pages with Bootstrap 4. We provide content-oriented, clean, and mobile-first layouts, which you can easily customize for your needs. Here are some carefully designed demos, use it out of the box or customize the way you want
+						a.btn-link.text-primary.hvr-icon-forward(href="/pages/page-apply.html")
+							| Quero minha conta 
+							small
+								i.fas.fa-chevron-right.ml-2.hvr-icon
+
+
+
+
+		// FOOTER 
+		include /utilities/_footer.pug
+		// light-footer(lead_bg_color, lead_border_color, lead_text_color, lead_btn_color, footer_bg, title_bg, text_color, link_color, subscribe_bg, subscribe_button, logo_file)
+
+		+light-footer('bg-white', '', '', 'btn-secondary', 'bg-light', 'text-dark', 'text-muted', 'text-muted', 'bg-gray', 'btn-gray', '/images/logo-popfacil-color-footer.png')
+
+		include /utilities/_scripts.pug

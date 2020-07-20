@@ -1,0 +1,49 @@
+doctype html
+html(lang="pt-br")
+	head
+		include /utilities/_head.pug
+	body
+
+
+		// HEADER
+		#header.bg-white
+			include /utilities/_navbar.pug
+			+navbar-mixin('navbar-light', 'btn-secondary')
+			#breadcrumbs.container
+				.row
+					.col
+						hr.mt-10
+						include /utilities/_breadcrumb.pug
+						+breadcrumb-mixin('text-muted', ['Home', 'Pages', 'Pricing'])
+
+
+
+		// SOLUCAO
+		.container.pb-14.pt-8
+			.row
+				.col
+					.row.justify-content-center
+						.col-md-6
+							h1.display-4.mb-3.mt-3 Aumente as Chamadas Telefônicas
+							p fdfdfdf
+							ul.mt-4
+								li Item 1
+								li Item 2
+							a.btn.btn-primary.px-5.mt-4(href="https://popkit.site/register")
+								| Começe a Aumentar suas Chamadas
+								i.far.fa-arrow-alt-circle-right.ml-2
+						.col-md-4
+							img.w-100(alt='Illustration' src='/images/illustrations/illustration_1.png')
+
+
+						
+
+
+
+		// FOOTER 
+		include /utilities/_footer.pug
+		// light-footer(lead_bg_color, lead_border_color, lead_text_color, lead_btn_color, footer_bg, title_bg, text_color, link_color, subscribe_bg, subscribe_button, logo_file)
+
+		+light-footer('bg-white', '', '', 'btn-secondary', 'bg-light', 'text-dark', 'text-muted', 'text-muted', 'bg-gray', 'btn-gray', '/images/logo-popfacil-color-footer.png')
+
+		include /utilities/_scripts.pug

@@ -1,0 +1,11 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="inbox-papers">
+<g id="inbox-papers_2">
+<path id="Layer 1" fill-rule="evenodd" clip-rule="evenodd" d="M95 65V18H25V65H40V75H80V65H95V65Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" fill-rule="evenodd" clip-rule="evenodd" d="M40 65H10V104.001C10 107.32 12.6832 110 15.9931 110H104.007C107.312 110 110 107.314 110 104.001V65H80V75H40V65V65Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="Layer 3" x="30" y="10" width="60" height="8" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 4" d="M80 64.9999H110L95 45.1836V64.9999H80" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 5" d="M25 64.9998V46.2461V46.2461V46.2461L10 64.9998H40" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

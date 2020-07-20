@@ -1,0 +1,15 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="radio">
+<g id="radio_2">
+<rect id="Layer 1" x="10" y="40" width="100" height="70" rx="3" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" fill-rule="evenodd" clip-rule="evenodd" d="M45 100C58.8071 100 70 88.8071 70 75C70 61.1929 58.8071 50 45 50C31.1929 50 20 61.1929 20 75C20 88.8071 31.1929 100 45 100Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 3" fill-rule="evenodd" clip-rule="evenodd" d="M45 83C49.4183 83 53 79.4183 53 75C53 70.5817 49.4183 67 45 67C40.5817 67 37 70.5817 37 75C37 79.4183 40.5817 83 45 83Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 4" d="M100 40L30.5 10.5" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="Layer 5" x="80" y="50" width="20" height="8" rx="4" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 6" d="M80 98H100" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 7" d="M80 90H100" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 8" d="M80 82H100" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 10" d="M20 39C20 36.2386 22.2386 34 25 34V34C27.7614 34 30 36.2386 30 39V40H20V39Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

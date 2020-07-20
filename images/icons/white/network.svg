@@ -1,0 +1,19 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="network">
+<g id="network_2">
+<path id="Layer 1" d="M20 50H40" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" d="M80 50H100" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="Layer 3" x="10" y="10" width="40" height="30" rx="1" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="Layer 4" x="70" y="10" width="40" height="30" rx="1" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="Layer 5" x="25" y="40" width="10" height="10" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="Layer 6" x="85" y="40" width="10" height="10" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 7" d="M10 105H24.5" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 8" d="M95 105H110" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 9" d="M35 105H84.5" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 10" d="M30 99V63" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 11" d="M90 99V63" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 12" fill-rule="evenodd" clip-rule="evenodd" d="M90 110C92.7614 110 95 107.761 95 105C95 102.239 92.7614 100 90 100C87.2386 100 85 102.239 85 105C85 107.761 87.2386 110 90 110Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 13" fill-rule="evenodd" clip-rule="evenodd" d="M30 110C32.7614 110 35 107.761 35 105C35 102.239 32.7614 100 30 100C27.2386 100 25 102.239 25 105C25 107.761 27.2386 110 30 110Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

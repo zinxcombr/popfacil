@@ -1,0 +1,67 @@
+doctype html
+html(lang="pt-br")
+	head
+		include /utilities/_head.pug
+	body
+
+
+		// HEADER
+		#header.bg-white
+			include /utilities/_navbar.pug
+			+navbar-mixin('navbar-light', 'btn-secondary')
+			#breadcrumbs.container
+				.row
+					.col
+						hr.mt-10
+						include /utilities/_breadcrumb.pug
+						+breadcrumb-mixin('text-muted', ['Home', 'Pages', 'Pricing'])
+			#title.container
+				.row
+					.col.text-center.pt-8.pb-6
+						h1.display-2.mb-3 
+							| Entre em Contato
+						p.lead.text-muted.mb-3
+							a(href='mailto:suporte@popfacil.com')
+								| suporte@popfacil.com
+
+
+		// FORM	
+		.container.mb-8
+			.row
+				.col-lg-8.col-md-10.col-sm-12.mx-auto
+					form.mb-5
+						.form-row 
+							.form-group.col-lg-4.col-md-12.col-sm-12.pr-2
+								label.text-muted(for='forms-3-first-name')
+									small
+										| Nome
+								input#forms-3-first-name.form-control.rounded(type='text', placeholder='Jon')
+							.form-group.col-lg-4.col-md-12.col-sm-12.px-2
+								label.text-muted(for='forms-3-last-name')
+									small
+										| Email
+								input#forms-3-org.form-control.rounded(type='text', placeholder='Snow')
+							.form-group.col-lg-4.col-md-12.col-sm-12.pl-2
+								label.text-muted(for='forms-3-org')
+									small
+										| Assunto
+								input#forms-3-last-name.form-control.rounded(type='text', placeholder='Acme')
+						.form-group.mb-5
+							label.text-muted.small(for='exampleFormControlTextarea1') Mensagem
+							textarea#exampleFormControlTextarea1.form-control.rounded(rows='6', placeholder="Your comment")
+						button.btn.btn-primary.mb-3.w-100(type='submit')
+							| Envie pra gente
+						p.mt-2.mb-4.mb-0.small.text-muted.text-center
+							i.fas.fa-check-circle.mr-2
+							span Seus dados estão seguros conosco
+
+							
+
+
+		// FOOTER 
+		include /utilities/_footer.pug
+		// light-footer(lead_bg_color, lead_border_color, lead_text_color, lead_btn_color, footer_bg, title_bg, text_color, link_color, subscribe_bg, subscribe_button, logo_file)
+
+		+light-footer('bg-white', '', '', 'btn-secondary', 'bg-light', 'text-dark', 'text-muted', 'text-muted', 'bg-gray', 'btn-gray', '/images/logo-popfacil-color-footer.png')
+
+		include /utilities/_scripts.pug

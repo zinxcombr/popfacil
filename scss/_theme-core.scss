@@ -1,0 +1,695 @@
+// Replacer core
+
+// 1. Navbar
+// 2. Icons
+// 3. Tabs 
+// 4. Opacity
+// 5. Shadows
+// 6. Slick carousel
+// 7. Accordion
+// 8. PACE preloader
+// 9. Position with breakpoints
+// 10. Other
+
+// 1. Navbar 
+
+@media (max-width: 1200px) {
+	.navbar-light.fixed-top {
+		box-shadow: 0 0 4px rgba(0, 0, 0, .3);
+		background-color: $white; 
+	}
+
+	.navbar-dark.fixed-top {
+		background-color: $dark;
+	}
+}
+
+.dropdown-toggle:after {
+	vertical-align: 0.075em;
+}
+
+.navbar-brand span {
+	display: inline-block;
+	min-height: 2rem;
+	min-width: 9rem;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}
+
+.navbar-light .navbar-brand img {
+	max-height: 42px;
+}
+
+.navbar-dark .navbar-brand img {
+	max-height: 42px;
+}
+
+.navbar-light-scrolled {
+	background: white !important;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .3);
+}
+
+.navbar .dropdown-menu {
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+	border-top: 3px solid $primary;
+	border-top-left-radius: 0 ;
+	border-top-right-radius: 0 ;
+	border-bottom-left-radius: .25rem ;
+	border-bottom-right-radius: .25rem ;
+	padding: 1rem 0;
+	transition: display 2s;
+}
+
+.dropdown-menu {
+	margin-top: 0;
+}
+
+.dropdown-menu .dropdown-item {
+	font-size: .875rem;
+	padding: .4rem 1.25rem;
+	line-height: 2.1;
+}
+
+.navbar .nav-link {
+	margin: 0 .25rem;
+	text-transform: uppercase;
+	font-size: .9rem;
+	font-weight: 500;
+}
+
+.dropdown-toggle::after {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	content: "\f107" !important;
+	display: inline-block;
+	font-size: 75%;
+	margin-left: .5rem;
+	width: 0;
+	height: 0;
+	border: none !important;
+}
+
+// Dropdown animation
+
+@media (min-width: 992px) {
+  .animated_dropdown {
+    animation-duration: 0.2s;
+    -webkit-animation-duration: 0.2s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-name: slideIn;
+  	animation-name: slideIn;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+  100% {
+    transform:translateY(0rem);
+    opacity: 1;
+  }
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: transform;
+    -webkit-opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -webkit-opacity: 1;
+  }
+  0% {
+    -webkit-transform: translateY(1rem);
+    -webkit-opacity: 0;
+  }
+}
+
+
+// 2. Icons
+
+.icon {
+	display: inline-flex;
+    align-items: center;
+    justify-content: center;
+	font-size: 1rem;
+	line-height: 1rem;
+	min-width: 2rem;
+	min-height: 2rem;
+	padding: 0;
+} 
+
+.icon-sm {
+	font-size: 1rem;
+	line-height: 1rem;
+	min-width: 1.5rem;
+	min-height: 1.5rem;
+}
+
+.icon-lg {
+	font-size: 1rem;
+	line-height: 1rem;
+	min-width: 3rem;
+	min-height: 3rem;
+}
+
+
+// 3. Tabs 
+
+.nav-tabs {
+	padding-top: .5rem;
+	padding-left: 0;
+	padding-right: 0;
+	border-radius: .5rem;
+	border-bottom: none;
+}
+
+.nav-tabs .nav-link {
+	border: 0;
+	border-bottom: 3px solid $gray-200;
+	background: transparent !important;
+}
+
+.nav-tabs .nav-link:hover {
+	border: 0;
+	border-bottom: 3px solid $gray-300;
+	background: transparent !important;
+}
+
+.nav-tabs .nav-link.active {
+	background: transparent !important;
+	border-bottom: 3px solid $primary;
+}
+
+.nav-v-tabs .nav-link {
+	border-left: 3px solid rgba($gray-600, 0.125);
+	transition: opacity .25s; 
+}
+
+.nav-v-tabs .nav-link:hover {
+	border-left: 3px solid rgba($gray-600, 0.25);
+	transition: opacity .25s;
+}
+
+.nav-v-tabs .nav-link > div {
+	opacity: 1.0; 
+	transition: opacity .25s; 
+} 
+
+.nav-v-tabs .nav-link div:hover {
+	opacity: 1.0;
+	transition: opacity .25s;
+} 
+
+.nav-v-tabs .nav-link.active div {
+	opacity: 1.0
+} 
+
+.nav-v-tabs .nav-link.active {
+	border-left: 3px solid $primary;  
+} 
+
+
+// 4. Opacity
+
+.opacity-1 { opacity: .1 }
+.opacity-2 { opacity: .2 }
+.opacity-3 { opacity: .3 }
+.opacity-4 { opacity: .4 }
+.opacity-5 { opacity: .5 }
+.opacity-6 { opacity: .6 }
+.opacity-7 { opacity: .7 }
+.opacity-8 { opacity: .8 }
+.opacity-9 { opacity: .9 }
+
+
+// 5. Shadows
+
+.shadow-sm {
+  box-shadow: 0 1px 5px rgba(140, 152, 164, 0.125) !important;
+}
+.shadow-lg {
+  box-shadow: 0 10px 40px 10px rgba(140, 152, 164, 0.175) !important;
+}
+.shadow-none {
+  box-shadow: none !important;
+}
+
+
+// 6. Slick carousel
+
+.slick-dots {
+	padding: 1rem 0 0 0;  
+	position: absolute;
+	width: 100%;
+	margin: 0;
+	list-style: none;
+	text-align: center;
+	display: inline-block;
+}
+.slick-dots li{
+	font-size: 0;
+	cursor: pointer;
+	padding: .25rem;
+	position: relative;
+	display: inline-block;
+	line-height: 0;
+}
+.slick-dots li button{
+	font-size: 0;
+	background: $gray-300;
+	width: 2rem;
+    height: .625rem;
+	border: 0;
+	border-radius: 1rem;
+	display: inline-block;
+	cursor: pointer;
+}
+.slick-dots li button:focus{
+	outline: 0;
+}
+.slick-dots li.slick-active button{
+	background: $gray-600 !important;
+	border: solid 1px $gray-600; 
+}
+.slick-dots-white > .slick-dots li button {
+	background: rgba(255,255,255,.5);
+	border: solid 1px rgba(255,255,255,.75);
+}
+.slick-dots-white > .slick-dots li.slick-active button{
+	background: rgba(255,255,255,1) !important;
+}
+
+$slick-opacity-default: 1 !default;
+$slick-opacity-on-hover: 1 !default;
+$slick-opacity-not-active: 0.25 !default;
+
+.slick-prev,
+.slick-next {
+    position: absolute;
+    display: block;
+    line-height: 0px;
+    font-size: 0px;
+    cursor: pointer;
+    background: transparent;
+    color: transparent;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    padding: 0;
+    border: none;
+    outline: none;
+    z-index: 1000;
+    &:hover, &:focus {
+        outline: none;
+        background: transparent;
+        color: transparent;
+        &:before {
+            opacity: $slick-opacity-on-hover;
+        }
+    }
+    &.slick-disabled:before {
+        opacity: $slick-opacity-not-active;
+    }
+    &:before {
+        opacity: $slick-opacity-default;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+
+.arrows-white .slick-prev {
+    &:before {
+		color: $gray-800;
+	    background: $white;
+    }
+}
+
+.arrows-white  .slick-next {
+    &:before {
+		color: $gray-800;
+	    background: $white;
+    }
+}
+
+.slick-prev {
+    left: 0;
+    [dir="rtl"] & {
+        left: auto;
+        right: -25px;
+    }
+    &:before {
+		display: inline-flex;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+		font-size: 1.25rem;
+		line-height: 1.25rem;
+		min-width: 3.5rem;
+		min-height: 3.5rem;
+		border-radius: 50%; 
+       	font-family: "Font Awesome 5 Free";
+		font-weight: 900;
+		color: $primary;
+	    content: "\f053";
+	    border: 0;
+	    background: lighten($primary, 52%);
+	    float: right;
+	    margin-left: 1rem;
+    }
+}
+
+.slick-next {
+    right: 0;
+    [dir="rtl"] & {
+        left: -25px;
+        right: auto;
+    }
+    &:before {
+       	display: inline-flex;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+		font-size: 1.25rem;
+		line-height: 1.25rem;
+		min-width: 3.5rem;
+		min-height: 3.5rem;
+		border-radius: 50%; 
+       	font-family: "Font Awesome 5 Free";
+		font-weight: 900;
+		color: $primary;
+	    content: "\f054";
+	    border: 0;
+	    background: lighten($primary, 52%);
+	    float: right;
+	    margin-right: 1rem;
+    }
+}
+
+
+// 7. Accordion
+
+.accordion .card-header:after { 
+    font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+    content: "\f077";
+    float: right;
+    margin-left: auto;
+    line-height: 1.9;
+}
+
+.accordion .card-header.collapsed:after {
+    content: "\f078";  
+}
+
+.accordion .card-header {
+	cursor: pointer;
+	background: transparent !important;
+}
+
+.accordion .card-body {
+	border-bottom: solid 1px rgba($dark, .1);
+}
+
+
+// 8. PACE preloader
+
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pace-inactive {
+  display: none;
+}
+
+.pace .pace-progress {
+  background: $primary;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 3px;
+}
+
+
+// 9. Position with breakpoints
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    @each $value in $positions {
+      .position#{$infix}-#{$value} { position: $value !important; }
+    }
+  }
+}
+
+
+// 10. Other
+
+blockquote {
+	border-left: 3px solid $primary;
+}
+
+.lead {
+	color: $gray-600;
+}
+
+.transition-all {
+	transition: all .1s;
+}
+
+.hero-height {
+	min-height: 46rem;
+}
+
+.close:focus {
+	outline: none !important;
+}
+
+.btn-white:hover {
+	background-color: $white;
+} 
+
+
+// 11. U Text Mark
+
+.u-text-mark {
+    position: relative;
+}
+.u-text-mark:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: .3em;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='236' height='16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2.8 8.3l16.8-.6L35 7.1l15-.7c2.2-.1 4.5-.3 6.8-.3l10-.2h5.5l10.3.2 15.4.6L129.5 8l15.5.8 15.4.7c9.7.4 19.4.7 29 1.3l8 .5 8.9.7 7.7.7 3.2.3 3.7.5 5.2.6 6.6 1.2.6.1a2.3 2.3 0 0 0 2.3-1.6c.2-.6.1-1.3-.2-1.9-.2-.4-.8-1-1.3-1.1l-4.2-.8-4.2-.7A403.3 403.3 0 0 0 212 7.7a2.4 2.4 0 0 0 1-2.4c-.2-.6-.6-1.2-1-1.5l-1.1-.5a33 33 0 0 0-2.6-.4l-2-.3-3.8-.2L195 2l-15.5-.5-15.4-.3L156 1h-24.4L115.8.8C106.1.7 96.2.6 86.4.7H71.8c-5.2 0-10.4 0-15.6.2L45.9 1l-5.9.1-9.4.4-6.2.3c-7.4.5-14.7 1-22 1.7-.5.1-.8.3-1.1.6-.5.4-.8 1-.8 1.6 0 1.3 1 2.5 2.3 2.5' fill='%23f6c400' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    left: 0;
+    bottom: -.15em;
+}
+
+// 12. Como Funciona Timeline
+
+.timeline {
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    
+}
+.timeline ul li {
+    margin-bottom: 50px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.timeline ul li .content {
+    width: 50%;
+}
+.timeline ul li:nth-child(odd) .content {
+    padding-left: 0;
+    padding-right: 3rem;
+}
+.timeline ul li:nth-child(odd) .date {
+    padding-right: 0;
+    padding-left: 0rem;
+}
+.timeline ul li:nth-child(even) .content {
+    padding-right: 0;
+    padding-left: 3rem;
+}
+.timeline ul li:nth-child(even) .date {
+    padding-left: 0;
+    padding-right: 0rem;
+}
+.timeline ul li .date {
+    width: 50%;
+    font-weight: normal;
+}
+.timeline ul li .content h3 {
+    padding: 10px 20px;
+    background-color: $secondary-light;
+    margin-bottom: 0;
+    text-align: left;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.timeline ul li .content p {
+    padding: 10px 20px;
+    background-color: $gray-100;
+    margin-top: 0;
+    text-align: left;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.timeline ul li:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+// 13. Ribbon
+
+.box {
+  position: relative;
+  background: #fff;
+  box-shadow: 0 0 15px rgba(0,0,0,.1);
+}
+/* common */
+.ribbon {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+}
+.ribbon::before,
+.ribbon::after {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  display: block;
+  border: 5px solid #2980b9;
+}
+.ribbon span {
+  position: absolute;
+  display: block;
+  width: 225px;
+  padding: 15px 0;
+  background-color: $primary;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  color: #fff;
+  font: 700 18px/1 'Lato', sans-serif;
+  text-shadow: 0 1px 1px rgba(0,0,0,.2);
+  text-transform: uppercase;
+  text-align: center;
+}
+/* top left*/
+.ribbon-top-left {
+  top: -10px;
+  left: -10px;
+}
+.ribbon-top-left::before,
+.ribbon-top-left::after {
+  border-top-color: transparent;
+  border-left-color: transparent;
+}
+.ribbon-top-left::before {
+  top: 0;
+  right: 0;
+}
+.ribbon-top-left::after {
+  bottom: 0;
+  left: 0;
+}
+.ribbon-top-left span {
+  right: -25px;
+  top: 30px;
+  transform: rotate(-45deg);
+}
+/* top right*/
+.ribbon-top-right {
+  top: -10px;
+  right: -10px;
+}
+.ribbon-top-right::before,
+.ribbon-top-right::after {
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+.ribbon-top-right::before {
+  top: 0;
+  left: 0;
+}
+.ribbon-top-right::after {
+  bottom: 0;
+  right: 0;
+}
+.ribbon-top-right span {
+  left: -25px;
+  top: 30px;
+  transform: rotate(45deg);
+}
+/* bottom left*/
+.ribbon-bottom-left {
+  bottom: -10px;
+  left: -10px;
+}
+.ribbon-bottom-left::before,
+.ribbon-bottom-left::after {
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+.ribbon-bottom-left::before {
+  bottom: 0;
+  right: 0;
+}
+.ribbon-bottom-left::after {
+  top: 0;
+  left: 0;
+}
+.ribbon-bottom-left span {
+  right: -25px;
+  bottom: 30px;
+  transform: rotate(225deg);
+}
+/* bottom right*/
+.ribbon-bottom-right {
+  bottom: -10px;
+  right: -10px;
+}
+.ribbon-bottom-right::before,
+.ribbon-bottom-right::after {
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+}
+.ribbon-bottom-right::before {
+  bottom: 0;
+  left: 0;
+}
+.ribbon-bottom-right::after {
+  top: 0;
+  right: 0;
+}
+.ribbon-bottom-right span {
+  left: -25px;
+  bottom: 30px;
+  transform: rotate(-225deg);
+}
+
+// 14. Media Queries

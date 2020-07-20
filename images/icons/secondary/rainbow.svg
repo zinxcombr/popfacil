@@ -1,0 +1,10 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="rainbow">
+<g id="rainbow_2">
+<path id="Layer 1" fill-rule="evenodd" clip-rule="evenodd" d="M110 70.4961C109.998 41.5029 87.613 18 60 18C32.3858 18 10 41.5051 10 70.5V102H20V70.5C20 47.304 37.9086 28.5 60 28.5C82.0914 28.5 100 47.304 100 70.5V101.996H110V70.4961C110 70.4961 110 70.4961 110 70.4961V70.4961Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" fill-rule="evenodd" clip-rule="evenodd" d="M100 70.7135C99.9991 47.6756 82.0908 29 60 29C37.9092 29 20.0009 47.6756 20 70.7135C20 70.7135 20 70.7135 20 70.7135V102H30V70.7153C30 53.4363 43.4315 39.4288 60 39.4288C76.5685 39.4288 90 53.4363 90 70.7153V102H100V70.7135C100 70.7135 100 70.7135 99.9999 70.7135L100 70.7135Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 3" fill-rule="evenodd" clip-rule="evenodd" d="M90 70.4982C89.9982 53.1019 76.5674 39 60 39C43.4326 39 30.0018 53.1019 30 70.4982C30 70.4982 30 70.4982 30 70.4982V102H40V70.5018C40 58.9031 48.9543 49.5006 60 49.5006C71.0457 49.5006 80 58.9031 80 70.5018V102H90V70.4982C90 70.4982 90 70.4982 90 70.4982V70.4982Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 4" fill-rule="evenodd" clip-rule="evenodd" d="M80 70.7973C79.9977 59.3109 71.0443 50 60 50C48.9557 50 40.0023 59.3109 40 70.7973C40 70.7973 40 70.7973 40 70.7973V102H50V70.8018C50 65.0575 54.4772 60.4009 60 60.4009C65.5228 60.4009 70 65.0575 70 70.8018V102H80V70.7973C80 70.7973 80 70.7973 80 70.7973V70.7973Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,9 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="ban">
+<g id="ban_2">
+<path id="Layer 1" fill-rule="evenodd" clip-rule="evenodd" d="M11.8308 82.2963C10.6607 81.1658 10 79.6085 10 77.9815V43.2008C10 41.6172 10.6261 40.0978 11.7417 38.9739L38.7419 11.7731C39.8684 10.6383 41.4013 10 43.0002 10H78.2253C79.8698 10 81.4421 10.6749 82.5748 11.867L108.349 38.9916C109.409 40.1067 110 41.5863 110 43.1246V78.0584C110 79.64 109.376 81.1577 108.262 82.2812L82.5615 108.223C81.4347 109.36 79.9001 110 78.2991 110H42.9271C41.3715 110 39.8766 109.396 38.7579 108.315L11.8308 82.2963Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" d="M79.092 40.9082L40.9082 79.092" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 3" d="M79.092 79.092L40.9082 40.9082" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

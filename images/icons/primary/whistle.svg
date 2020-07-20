@@ -1,0 +1,12 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="whistle">
+<g id="whistle_2">
+<path id="Layer 1" fill-rule="evenodd" clip-rule="evenodd" d="M45.4496 100.566C59.9422 100.566 71.733 88.7755 71.733 74.2834C71.733 72.5552 71.5647 70.829 71.2333 69.1523C70.8567 67.2495 72.0529 65.3895 73.9403 64.9422L109.622 56.4865V48H45.4496C30.957 48 19.1662 59.7909 19.1662 74.2834C19.1662 88.776 30.957 100.566 45.4496 100.566V100.566V100.566Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" d="M47 48H61V55C61 58.866 57.866 62 54 62V62C50.134 62 47 58.866 47 55V48Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 3" d="M54.2749 19.7578V34.7578" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 4" d="M35.9818 24.7627L43.4818 37.7531" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 5" d="M72.568 24.7627L65.068 37.7531" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 6" fill-rule="evenodd" clip-rule="evenodd" d="M22.725 87.4787C21.3976 88.4856 19.7426 89.0831 17.9481 89.0831C13.5788 89.0831 10.0367 85.541 10.0367 81.1717C10.0367 76.8023 13.5788 73.2603 17.9481 73.2603C18.3679 73.2603 18.7801 73.293 19.1823 73.356C19.1716 73.6637 19.1662 73.9727 19.1662 74.283C19.1662 79.0893 20.4629 83.5983 22.725 87.4787V87.4787Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

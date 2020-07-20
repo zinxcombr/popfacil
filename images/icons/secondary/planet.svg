@@ -1,0 +1,8 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="planet">
+<g id="planet_2">
+<path id="Layer 1" fill-rule="evenodd" clip-rule="evenodd" d="M95.3272 95.5855C114.805 76.1075 114.805 44.5274 95.3272 25.0494C75.8492 5.57142 44.2691 5.57142 24.7911 25.0494C5.31312 44.5274 5.31312 76.1075 24.7911 95.5855C44.2691 115.064 75.8492 115.064 95.3272 95.5855V95.5855Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" d="M15.1968 82.2612C11.6191 92.003 11.5995 100.028 15.9741 104.402C25.7131 114.141 53.543 102.102 78.134 77.5106C102.725 52.9196 114.765 25.0897 105.026 15.3507C100.457 10.7818 91.9066 11.0061 81.577 15.0709" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

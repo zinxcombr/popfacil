@@ -1,0 +1,10 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="diamond">
+<g id="diamond_2">
+<path id="Layer 1" fill-rule="evenodd" clip-rule="evenodd" d="M19.9244 13H100.219L110.114 43H10.1139L19.9244 13Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 3" fill-rule="evenodd" clip-rule="evenodd" d="M10.1139 43H40.2965L60.1139 108L10.1139 43Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 4" fill-rule="evenodd" clip-rule="evenodd" d="M110.114 43H79.9313L60.1139 108L110.114 43V43Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 5" fill-rule="evenodd" clip-rule="evenodd" d="M20.1139 13L40.0406 43L59.9869 13L80.191 43L99.899 13H20.1139Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

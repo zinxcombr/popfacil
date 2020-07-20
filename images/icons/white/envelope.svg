@@ -1,0 +1,11 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="envelope">
+<g id="envelope_2">
+<path id="Layer 1" d="M10 10H110V104C110 107.314 107.314 110 104 110H16C12.6863 110 10 107.314 10 104V10Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" d="M110 10L100.001 40H20.1943L10 10V10" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 3" d="M66 40V45C66 47.7614 63.771 50 60.9978 50H59.0022C56.2396 50 54 47.7558 54 45V40V40" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="Layer 4" x="20" y="80" width="30" height="20" rx="3" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 5" d="M60.5 52V109.5" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

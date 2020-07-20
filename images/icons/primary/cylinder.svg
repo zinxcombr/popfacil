@@ -1,0 +1,9 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="cylinder">
+<g id="cylinder_2">
+<path id="Layer 1" fill-rule="evenodd" clip-rule="evenodd" d="M60 110.327C82.6437 110.327 101 106.672 101 102.163C101 97.6548 82.6437 94 60 94C37.3563 94 19 97.6548 19 102.163C19 106.672 37.3563 110.327 60 110.327Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" fill-rule="evenodd" clip-rule="evenodd" d="M60 26.3265C82.6437 26.3265 101 22.6717 101 18.1633C101 13.6548 82.6437 10 60 10C37.3563 10 19 13.6548 19 18.1633C19 22.6717 37.3563 26.3265 60 26.3265Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 3" fill-rule="evenodd" clip-rule="evenodd" d="M101 18.1631V102.163C101 97.6546 82.6437 93.9998 60 93.9998C37.3563 93.9998 19 97.6546 19 102.163V18.1631C19 22.6715 37.3563 26.3264 60 26.3264C82.6437 26.3264 101 22.6715 101 18.1631V18.1631Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

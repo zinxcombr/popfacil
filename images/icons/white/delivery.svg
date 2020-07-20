@@ -1,0 +1,14 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="delivery">
+<g id="delivery_2">
+<path id="Layer 1" d="M50.3749 28.3334L72.8348 28.3334C75.8715 28.3334 78.3333 30.8035 78.3333 33.8334V83.3334H14.1667V51.2517" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" d="M78.3333 101.667H87.5C87.5 96.6041 91.604 92.5 96.6666 92.5C101.729 92.5 105.833 96.6041 105.833 101.667V101.667V101.667H112.244C113.77 101.667 115 100.439 115 98.9252V81.4916C115 79.9821 114.226 77.794 113.271 76.6147L98.1758 57.9687C97.2206 56.7889 95.2154 55.8334 93.696 55.8334H78.3333" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 3" d="M115 81.4606H90.4953C88.8411 81.4606 87.5 80.1136 87.5 78.4606V68C87.5 66.3431 88.846 65 90.4929 65H103.612" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 4" d="M78.3333 83.3334V101.667H42.5833C42.5833 96.6041 38.4793 92.5 33.4167 92.5C28.354 92.5 24.25 96.6041 24.25 101.667V101.667V101.667H19.6652C16.6232 101.667 14.1667 99.204 14.1667 96.1661V83.3334" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 5" fill-rule="evenodd" clip-rule="evenodd" d="M33.4167 110.833C38.4793 110.833 42.5833 106.729 42.5833 101.667C42.5833 96.6041 38.4793 92.5 33.4167 92.5C28.3541 92.5 24.25 96.6041 24.25 101.667C24.25 106.729 28.3541 110.833 33.4167 110.833Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 6" fill-rule="evenodd" clip-rule="evenodd" d="M96.6667 110.833C101.729 110.833 105.833 106.729 105.833 101.667C105.833 96.6041 101.729 92.5 96.6667 92.5C91.6041 92.5 87.5 96.6041 87.5 101.667C87.5 106.729 91.6041 110.833 96.6667 110.833Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 7" fill-rule="evenodd" clip-rule="evenodd" d="M27.9167 55.8333C40.5732 55.8333 50.8333 45.5732 50.8333 32.9167C50.8333 20.2601 40.5732 10 27.9167 10C15.2601 10 5 20.2601 5 32.9167C5 45.5732 15.2601 55.8333 27.9167 55.8333Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 8" d="M27.9167 19.1666V32.9166H41.6667" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

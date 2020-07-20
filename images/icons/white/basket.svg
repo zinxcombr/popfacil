@@ -1,0 +1,13 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="basket">
+<g id="basket_2">
+<path id="Layer 1" d="M107 48L100.797 102.041C100.419 105.332 97.4242 108 94.1231 108H25.9707C22.6624 108 19.6692 105.325 19.2872 102.041L13 48V48" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" d="M20.9918 38C20.444 38 20 37.5443 20 37.0046V28.9954C20 28.4457 20.4553 28 20.9918 28H39.0082C39.556 28 40 28.4557 40 28.9954" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 3" fill-rule="evenodd" clip-rule="evenodd" d="M50 48.0225L83.3919 14.6306C85.5664 12.4561 89.0872 12.4572 91.2595 14.6295C93.4273 16.7973 93.4312 20.3242 91.2584 22.497L65.7329 48.0225H50V48.0225Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 4" d="M60.0225 38H11.006V38C10.4458 38 10 38.4457 10 38.9954V47.0046C10 47.5443 10.4504 48 11.006 48H50.0225" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 5" d="M75.7554 38V38V38H108.994C109.55 38 110 38.4557 110 38.9954V47.0046C110 47.5543 109.554 48 108.994 48H65.7554" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 6" d="M75.0225 23H41.0016C40.4427 23 40 23.4511 40 24.0075V36.9925C40 37.5511 40.4484 38 41.0016 38H60.0225" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 7" d="M90.7554 23V23V23H93.9984C94.5516 23 95 23.4489 95 24.0075V36.9925C95 37.5489 94.5573 38 93.9984 38H75.7554" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

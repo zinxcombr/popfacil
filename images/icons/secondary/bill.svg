@@ -1,0 +1,14 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="bill">
+<g id="bill_2">
+<path id="Layer 1" fill-rule="evenodd" clip-rule="evenodd" d="M55 110H80V110C85.5228 110 90 105.523 90 100V20.0045C90 14.4792 94.4751 10 100 10H100.039H40.0032C34.4769 10 30 14.4772 30 20.0001V90H70V99.9999C70 105.523 74.4759 110 80 110H55V110Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" fill-rule="evenodd" clip-rule="evenodd" d="M110 40V20.0001C110 14.4747 105.523 10 100 10C94.4759 10 90 14.4772 90 20.0001V40H110V40Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 3" fill-rule="evenodd" clip-rule="evenodd" d="M70 90H10V100C10 105.524 14.4736 110 19.9921 110H80C74.4759 110 70 105.523 70 99.9999V90V90Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 4" d="M39.7423 37H80" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 5" d="M39.7423 47H80" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 6" d="M39.7423 57H80" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 7" d="M39.7423 67H80" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 8" d="M39.7423 77H63.9216" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

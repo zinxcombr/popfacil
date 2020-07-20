@@ -1,0 +1,67 @@
+#login-modal.modal.fade(tabindex="-1" role="dialog" aria-labelledby="login-modal" aria-hidden="true")
+	.modal-dialog.modal-dialog-centered.border-0(role="document")
+		.modal-content
+			.card.rounded-lg.shadow-sm
+				.card-header.px-lg-7.px-3.pt-3.pb-0.border-0.bg-transparent
+					.row.d-flex.justify-content-center.no-gutters
+						.col
+							nav
+								.nav.nav-tabs.text-center(id="nav-tab", role="tablist")
+									a.nav-item.nav-link.font-weight-bold.px-3.active(id="nav-login-modal-modal-tab" data-toggle="tab" href="#nav-login-modal" role="tab" aria-controls="nav-login-modal" aria-selected="true")
+										h5 Login
+									a.nav-item.nav-link.font-weight-bold.px-3(id="nav-register-modal-modal-tab" data-toggle="tab" href="#nav-register-modal" role="tab" aria-controls="nav-register-modal" aria-selected="true")
+										h5 Register
+						button.close.text-muted(type='button', data-dismiss='modal', aria-label='Close')
+							i.fas.fa-times-circle(aria-hidden='true')
+				.tab-content
+					.tab-pane.fade.show.active(id="nav-login-modal" role="tabpanel" aria-labelledby="nav-login-modal-modal-tab")
+						.card-block.px-lg-7.px-3.pt-6.pb-5
+							form
+								.form-group.mb-2
+									input.form-control.rounded(type='email', placeholder='E-mail')
+								.form-group.mb-3
+									input.form-control.rounded(type='password', placeholder='Password')
+								.form-check.mb-4
+									label.form-check-label.text-muted
+										input.form-check-input.mr-2(type='checkbox', value='')
+										span.small Remember me
+								button.btn.btn-secondary.mb-4.w-100(type='submit')
+									| Login
+								.text-muted.mb-3.small Login with social accounts:
+								.btn-group.w-100
+									button.btn.btn-outline-facebook.mb-5.px-4
+										i.fab.fa-facebook.mr-2
+										| Facebook
+									button.btn.btn-outline-twitter.mb-5.px-4
+										i.fab.fa-twitter.mr-2
+										| Twitter
+								a.text-muted.small(href='/pages/page-password-recovery.html')
+									i.fas.fa-question-circle.mr-2
+									| I forgot my password
+					.tab-pane.fade(id="nav-register-modal" role="tabpanel" aria-labelledby="nav-register-modal-modal-tab")
+						.card-block.px-lg-7.px-4.pt-6.pb-5
+							form
+								.form-group.mb-2
+									input.form-control.rounded(type='email', placeholder='E-mail')
+								.form-group.mb-2
+									input.form-control.rounded(type='password', placeholder='Password')
+								.form-group.mb-3
+									input.form-control.rounded(type='password', placeholder='Password again')
+								.form-check.mb-4
+									label.form-check-label.text-muted
+										input.form-check-input.mr-2(type='checkbox', value='')
+										small
+											| By sign up, you agree to our 
+											a(href='/pages/page-privacy.html') Terms
+											|  and 
+											a(href='/pages/page-privacy.html') Data Policy
+								button.btn.btn-secondary.mb-4.w-100(type='submit')
+									| Register
+								.text-muted.mb-3.small Login with social accounts:
+								.btn-group.w-100
+									button.btn.btn-outline-facebook.mb-5.px-4
+										i.fab.fa-facebook.mr-2
+										| Facebook
+									button.btn.btn-outline-twitter.mb-5.px-4
+										i.fab.fa-twitter.mr-2
+										| Twitter

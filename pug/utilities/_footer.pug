@@ -1,0 +1,83 @@
+mixin light-footer(lead_bg_color, lead_border_color, lead_text_color, lead_btn_color, footer_bg, title_bg, text_color, link_color, subscribe_bg, subscribe_button, logo_file)
+
+	// LEAD
+	#lead(class='border-top border-bottom ' + lead_bg_color + ' ' + lead_border_color)
+		.container
+			.row.py-3
+				.col.mx-auto.text-center
+					p.lead.p-0.m-0(class=lead_text_color)
+						| Nós te ajudamos a fazer o seu site vender mais
+					a(href='https://popkit.site/register', class='rounded-pill px-3 m-3 btn btn-sm btn-primary')
+						i.far.fa-clone.mr-2.
+						| Criar Conta
+
+
+
+	// FOOTER
+	#footer(class=footer_bg)
+		.container.py-5
+			.row.py-4
+
+				.col-lg-2.col-md-12
+					img.mb-5(src=logo_file, alt='PopFácil', height="50")
+
+				.col-lg-3.col-md-6
+					ul.list-unstyled.mb-3
+						li.mb-3
+							span.initialism(class=title_bg) Institucional
+						li.mb-2
+							a(href='/sobre.html', class=link_color) Sobre nós
+						li.mb-3
+							a(href='/contato.html', class=link_color) Contato
+						li.mb-2(class=text_color)
+							p.small.text-muted.mb-1 Nosso endereço
+							p.my-0 Alameda dos Nhambiquaras 1770 Conj. 503, São Paulo, SP 04521000
+				.col-lg-2.col-md-6
+					ul.list-unstyled.mb-3
+						li.mb-3
+							span.initialism(class=title_bg) A PopFácil
+						li.mb-2
+							a(href='/como-funciona.html', class=link_color) Como funciona?
+						li.mb-2
+							a(href='/solucoes', class=link_color) Soluções
+						li.mb-2
+							a(href='/widgets', class=link_color) Widgets
+						li.mb-2
+							a(href='/precos.html', class=link_color) Preços
+						li.mb-2
+							a(href='/versao-gratuita.html', class=link_color) Versão Gratuita
+
+				.col-lg-2.col-md-6
+					ul.list-unstyled.mb-3
+						li.mb-3
+							span.initialism(class=title_bg) Documentação
+						li.mb-2
+							a(href='/docs/comecando/introducao.html', class=link_color) Introdução
+						li.mb-2
+							a(href='/docs/comecando/changelog.html', class=link_color) Changelog
+						li.mb-2
+							a(href='/docs/comecando/suporte.html', class=link_color) Suporte
+
+				.col-lg-3.col-md-6
+
+					.initialism.mb-3(class=title_bg) Novidades e Ofertas
+
+					p.small(class=text_color) Inscreva-se em nossa newsletter para receber novidades e promoções da PopFácil
+
+					.input-group.mb-3.p-0.rounded
+						input.form-control.p-3.border-0.rounded-left(type='text', placeholder="Seu melhor email", aria-label="Recipient's email", aria-describedby='button-addon', class=subscribe_bg)
+						.input-group-append
+							button#button-addon.btn.px-3.border-0(type='button', class=subscribe_button + ' ' + link_color)
+								i.fas.fa-paper-plane  
+
+					span
+						a(href='#', class=link_color)
+							i.fab.fa-twitter.mr-3
+						a(href='#', class=link_color)
+							i.fab.fa-facebook.mr-3
+
+			.row
+				.col.text-center.pb-3.pt-4
+					span(class=text_color) &copy; 2020 &mdash; 2021, PopFácil
+	// LOGIN MODAL
+	include /utilities/_login-modal.pug 

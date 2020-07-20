@@ -1,0 +1,22 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="galaxy">
+<g id="galaxy_2">
+<path id="Layer 1" fill-rule="evenodd" clip-rule="evenodd" d="M18 26C22.4183 26 26 22.4183 26 18C26 13.5817 22.4183 10 18 10C13.5817 10 10 13.5817 10 18C10 22.4183 13.5817 26 18 26Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" fill-rule="evenodd" clip-rule="evenodd" d="M78 110C82.4183 110 86 106.418 86 102C86 97.5817 82.4183 94 78 94C73.5817 94 70 97.5817 70 102C70 106.418 73.5817 110 78 110Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 3" fill-rule="evenodd" clip-rule="evenodd" d="M104 82C107.314 82 110 79.3137 110 76C110 72.6863 107.314 70 104 70C100.686 70 98 72.6863 98 76C98 79.3137 100.686 82 104 82Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 4" fill-rule="evenodd" clip-rule="evenodd" d="M71 54C73.7614 54 76 51.7614 76 49C76 46.2386 73.7614 44 71 44C68.2386 44 66 46.2386 66 49C66 51.7614 68.2386 54 71 54Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 5" fill-rule="evenodd" clip-rule="evenodd" d="M53 30C55.7614 30 58 27.7614 58 25C58 22.2386 55.7614 20 53 20C50.2386 20 48 22.2386 48 25C48 27.7614 50.2386 30 53 30Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 6" fill-rule="evenodd" clip-rule="evenodd" d="M106 18C108.209 18 110 16.2091 110 14C110 11.7909 108.209 10 106 10C103.791 10 102 11.7909 102 14C102 16.2091 103.791 18 106 18Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 7" fill-rule="evenodd" clip-rule="evenodd" d="M100 48C102.209 48 104 46.2091 104 44C104 41.7909 102.209 40 100 40C97.7909 40 96 41.7909 96 44C96 46.2091 97.7909 48 100 48Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 8" fill-rule="evenodd" clip-rule="evenodd" d="M30 48C32.2091 48 34 46.2091 34 44C34 41.7909 32.2091 40 30 40C27.7909 40 26 41.7909 26 44C26 46.2091 27.7909 48 30 48Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 9" fill-rule="evenodd" clip-rule="evenodd" d="M35 108C37.2091 108 39 106.209 39 104C39 101.791 37.2091 100 35 100C32.7909 100 31 101.791 31 104C31 106.209 32.7909 108 35 108Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 10" fill-rule="evenodd" clip-rule="evenodd" d="M46 82C49.3137 82 52 79.3137 52 76C52 72.6863 49.3137 70 46 70C42.6863 70 40 72.6863 40 76C40 79.3137 42.6863 82 46 82Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 11" d="M26.5 19.5L47.5 23.5" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 12" d="M56.5 28.5L68.5 44.5" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 13" d="M74.5 52.5L99.5 71.5" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 14" d="M50 81L71.0605 97.9829" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 15" d="M99.5 80.5L83.5 95.5" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 16" d="M67.5 53.5L50.5 71.5" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

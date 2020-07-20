@@ -1,0 +1,8 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="cone">
+<g id="cone_2">
+<path id="Layer 1" d="M19 101.837L60 10V10L101 101.837" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" fill-rule="evenodd" clip-rule="evenodd" d="M60 110C82.6437 110 101 106.345 101 101.837C101 97.3283 82.6437 93.6735 60 93.6735C37.3563 93.6735 19 97.3283 19 101.837C19 106.345 37.3563 110 60 110Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

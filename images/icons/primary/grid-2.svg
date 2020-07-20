@@ -1,0 +1,10 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="grid-2">
+<g id="grid-2_2">
+<path id="1" fill-rule="evenodd" clip-rule="evenodd" d="M10 10H50V50H10V10V10Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="2" fill-rule="evenodd" clip-rule="evenodd" d="M70 10H110V50H70V10V10Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="3" fill-rule="evenodd" clip-rule="evenodd" d="M70 70H110V110H70V70V70Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="4" fill-rule="evenodd" clip-rule="evenodd" d="M10 70H50V110H10V70V70Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

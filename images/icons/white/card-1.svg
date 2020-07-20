@@ -1,0 +1,13 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="card-1">
+<g id="card-1_2">
+<rect id="Layer 1" x="10" y="25" width="100" height="70" rx="6" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" fill-rule="evenodd" clip-rule="evenodd" d="M83.5 67.1933C85.2383 65.8209 87.4449 65 89.8462 65C95.454 65 100 69.4772 100 75C100 80.5228 95.454 85 89.8462 85C87.4449 85 85.2383 84.1791 83.5 82.8067C81.7617 84.1791 79.5551 85 77.1538 85C71.546 85 67 80.5228 67 75C67 69.4772 71.546 65 77.1538 65C79.5551 65 81.7617 65.8209 83.5 67.1933V67.1933Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 3" d="M20 53H100" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 4" d="M20 83H32" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 5" d="M38 83H50" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 6" d="M20 73H50" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 7" d="M20 37H29" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

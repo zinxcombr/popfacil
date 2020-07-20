@@ -1,0 +1,267 @@
+doctype html
+html(lang="pt-br")
+	head
+		include /utilities/_head.pug
+	body
+		include /utilities/_navbar.pug
+		+navbar-mixin('navbar-light', 'btn-primary')
+
+
+		// HERO 
+		#hero
+			.container.d-flex.flex-column.jarallax(style="min-height: 46rem; background: url('/images/bg/bg_06.svg') center center no-repeat;")
+				.row.my-auto
+					.col-lg-6.col-md-12.col-sm-12.pt-16.pt-lg-6.my-auto(data-aos="fade")
+						h1.display-3.font-weight-bold
+							span Melhore Seu Site 
+							span.u-text-mark.pb-2 sem Programar
+						p.lead.mb-4.mt-5
+							span.text-primary 20.000+ 
+							| sites usam o PopFácil para aumentar a confiança, credibilidade e conversões usando nossos Widgets.
+						.mb-3
+							a.btn.btn-primary.rounded-pill.px-5.mr-3(href="https://popkit.site/register")
+								| Começe Grátis
+							a.btn.btn-secondary-light.rounded-pill.px-5.d-lg-done(href="http://localhost:3000/como-funciona.html")
+								| Saiba Mais
+						.mb-3.small.text-muted
+							span
+								i.fas.fa-star.mr-1
+								i.fas.fa-star.mr-1
+								i.fas.fa-star.mr-1
+								i.fas.fa-star.mr-1
+								i.fas.fa-star.mr-2
+							| Produto #1 no ProductHunt:
+					.col-lg-6.col-md-12.col-sm-12.ml-auto.my-auto(data-aos="fade-left")
+						img.w-100(alt='Illustration' src='/images/illustrations/illustration_1.png')
+
+
+		// NOTICE
+		#notice(data-aos="fade")
+			.alert.alert-warning-light.rounded-0.border-0.py-3(role="alert")
+				.container
+					.row.no-gutters
+						.col.d-flex.flex-column.flex-lg-row.flex-xl-row
+							.my-auto.mr-auto.text-muted
+								span.icon.icon-sm.text-white.mr-2
+									i.fas.fa-user
+								|  Aproveite a promoção 30% de Desconto no plano Vitalicio
+							.my-auto.py-2
+								a.btn.btn-primary.btn-sm.rounded-pill.px-3(href='https://popkit.site/register')
+									i.far.fa-clone.mr-2
+									| Eu quero!
+
+
+		// COUNTERS
+		#counters.pt-12.pb-8
+			.container
+				.row
+					.col-lg-3.col-md-6.col-sm-12.text-center.mb-5
+						.icon.mb-4.p-3
+							img(alt='Icon' src='/images/icons/primary/cursor-click-2.svg', height='48')
+						h5
+							span.counter#counter_1
+							|
+							|
+							span.text-muted clicks
+					.col-lg-3.col-md-6.col-sm-12.text-center.mb-5
+						.icon.mb-4.p-3
+							img(alt='Icon' src='/images/icons/primary/magic-1.svg', height='48')
+						h5
+							span.counter#counter_2
+							| +
+							|
+							span.text-muted sponsors
+					.col-lg-3.col-md-6.col-sm-12.text-center.mb-5
+						.icon.mb-4.p-3
+							img(alt='Icon' src='/images/icons/primary/layers-3.svg', height='48')
+						h5
+							span.counter#counter_3
+							|
+							|
+							span.text-muted bits
+					.col-lg-3.col-md-6.col-sm-12.text-center.mb-5
+						.icon.mb-4.p-3
+							img(alt='Icon' src='/images/icons/primary/chart-up.svg', height='48')
+						h5
+							| $
+							span.counter#counter_4
+							|
+							|
+							span.text-muted prize
+
+
+		// TABS
+		#tabs
+			.container
+				.row
+					.col.text-center
+						nav.mb-5
+							.nav.nav-tabs.d-inline-flex.mx-auto(role="tablist")
+								a.nav-item.nav-link.px-4.active(id="nav-tab-1" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true")
+									h5 Billing
+								a.nav-item.nav-link.px-4(id="nav-tab-2" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="true")
+									h5 Profile
+								a.nav-item.nav-link.px-4(id="nav-tab-3" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="true")
+									h5 Admin
+				.tab-content
+					.tab-pane.fade.show.active(id="tab-1" role="tabpanel" aria-labelledby="nav-tab-1")
+						.row
+							.col-lg-8.col-md-12.col-sm-12.order-lg-1.order-xl-1.my-auto(data-aos="fade-up")
+								img.w-100.mb-5(alt='Macbook' src='/images/devices/macbook_01.png')
+							.col-lg-2.col-md-12.col-sm-12.my-auto.order-lg-0.order-xl-0(data-aos="fade-right")
+								.icon.rounded.text-secondary.bg-secondary-light.mb-3
+									i.fas.fa-cloud-download-alt
+								h3.h5 Free updates
+								p.text-muted.mb-5 Replacer is constantly growing and updatable theme, and we have long-term plans to making it better according to your feedback
+							.col-lg-2.col-md-12.col-sm-12.my-auto.order-lg-2.order-xl-2(data-aos="fade-left")
+								.icon.rounded.text-secondary.bg-secondary-light.mb-3
+									i.fas.fa-adjust
+								h3.h5 Personalização Total
+								p.text-muted.mb-5 If you want to add a bit of noise in your design, so it did not look too boring, you can use ready-made dot background system
+					.tab-pane.fade.show(id="tab-2" role="tabpanel" aria-labelledby="nav-tab-2")
+						.row
+							.col-lg-8.col-md-12.col-sm-12.order-lg-1.order-xl-1.my-auto
+								img.w-100.mb-5(alt='Macbook' src='/images/devices/macbook_02.png')
+							.col-lg-2.col-md-12.col-sm-12.my-auto.order-lg-0.order-xl-0
+								.icon.rounded.text-secondary.bg-secondary-light.mb-3
+									i.fas.fa-paint-brush
+								h3.h5 Visibilidade no seu Controle
+								p.text-muted.mb-5 Replacer has an extremely solid and clean design to focus your visitors on what you want to tell them
+							.col-lg-2.col-md-12.col-sm-12.my-auto.order-lg-2.order-xl-2
+								.icon.rounded.text-secondary.bg-secondary-light.mb-3
+									i.fas.fa-image
+								h3.h5 Exclusive illustrations
+								p.text-muted.mb-5 We made illustrations and line icons, especially for Replacer. Feel free to customize them in Figma file, which also included
+					.tab-pane.fade.show(id="tab-3" role="tabpanel" aria-labelledby="nav-tab-3")
+						.row
+							.col-lg-8.col-md-12.col-sm-12.order-lg-1.order-xl-1.my-auto
+								img.w-100.mb-5(alt='Macbook' src='/images/devices/macbook_03.png')
+							.col-lg-2.col-md-12.col-sm-12.my-auto.order-lg-0.order-xl-0
+								.icon.rounded.text-secondary.bg-secondary-light.mb-3
+									i.fas.fa-file
+								h3.h5 Easy to understand
+								p.text-muted.mb-5 Replacer uses Bootstrap components to the fullest. We didn't code new CSS styles if Bootstrap already had the solution
+							.col-lg-2.col-md-12.col-sm-12.my-auto.order-lg-2.order-xl-2
+								.icon.rounded.text-secondary.bg-secondary-light.mb-3
+									i.fas.fa-question-circle
+								h3.h5 6 months free support
+								p.text-muted.mb-5 We are here for you to provide excellent support for 6 months, feel free to ask anything 
+
+
+		// FEATURES
+		#features
+			.container
+				.row
+					.col-lg-6.col-md-12.py-8(data-aos="fade-right")
+						img.w-100(alt='Illustration' src='/images/illustrations/illustration_5.png')
+					.col-lg-5.col-md-12.my-auto.py-5(data-aos="fade")
+						.initialism.mb-5.text-primary Killer features
+						.row.mb-1
+							.col.d-flex.py-2
+								img(alt='Icon' src='/images/icons/primary/energy.svg', height='48')
+								.ml-3
+									h3.h5 Personalização Poderosa
+									p.text-muted.mr-5 Replacer uses Bootstrap components to the fullest. We didn't code new CSS styles if Bootstrap already had the solution, so the theme loads quickly and easy to customize, and in many cases, you won't need to read more documentation than necessary
+						.row.mb-1
+							.col.d-flex.py-2
+								img(alt='Icon' src='/images/icons/primary/mac.svg', height='48')
+								.ml-3
+									h3.h5 Controle de Exibição
+									p.text-muted.mr-5 Replacer has an extremely solid and clean design to focus your visitors on what you want to tell them, and this lightweight design will never go out of trends
+						hr.mt-2.mb-4
+						a.btn-link.text-muted(href="#")
+							i.fas.fa-compass.mr-2
+							| Saiba mais
+
+
+		// SPLIT
+		#split.bg-light.border-top.border-bottom.py-4
+			.container
+				.row.my-auto
+					
+					.col-lg-5.col-md-12.col-sm-12.my-auto.py-8.mr-auto(data-aos="fade")
+						.initialism.mb-4.text-muted Exemplos de exibição
+						h5.mb-2 Muitas Aplicações 
+						p.lead.mb-5.mr-5 Replacer is a perfect tool to start making landing pages with Bootstrap 4. We provide content-oriented, clean, and mobile-first layouts, which you can easily customize for your needs. Here are some carefully designed demos, use it out of the box or customize the way you want. We also made illustrations and line icons, lorem ipsum dolor set amet
+						hr.mb-4
+						a.btn-link.text-primary.hvr-icon-forward(href="/widgets")
+							| Ver todos os Widgets
+							small
+								i.fas.fa-chevron-right.ml-2.hvr-icon
+
+
+					.col-lg-6.col-md-12.col-sm-12.my-auto(data-aos="fade-left")
+						.carousel-1-arrows.arrows-white
+							.card.rounded.overflow-hidden.border-0
+								img.w-100(alt='Slide' src='/images/photos/slide3.jpg')
+							.card.rounded.overflow-hidden.border-0
+								img.w-100(alt='Slide' src='/images/photos/slide2.jpg')
+							.card.rounded.overflow-hidden.border-0
+								img.w-100(alt='Slide' src='/images/photos/slide1.jpg')
+
+									
+
+
+		// TESTIMONIALS
+		#testimonials.py-14
+			.container
+				.row.mb-6.text-center(data-aos="fade")
+					.col
+						h2.display-3.mb-4
+							| 1000+ clientes
+						a.btn-link.hvr-icon-forward(href="/pages/page-apply.html")
+							| Deixe sua opinião também
+							small
+								i.fas.fa-chevron-right.ml-2.hvr-icon
+				.row.carousel-3-dots.mb-6(data-aos="fade-up")
+					.card.mb-4.border-0
+						.card-body.text-center
+							img.rounded-circle.mb-4.mx-auto(alt='Photo' src='/images/people/1.jpg', height="80")
+							h5.mb-3
+								| Marta Markes 
+							p.mb-0.text-muted.lead
+								| If you want to add a bit of noise in your design, so it did not look too boring, you can use ready-made dot background system or make your own background with Figma file, which is also included
+					.card.mb-4.border-0
+						.card-body.text-center
+							img.rounded-circle.mb-4.mx-auto(alt='Photo' src='/images/people/2.jpg', height="80")
+							h5.mb-3
+								| Marta Markes 
+							p.mb-0.text-muted.lead
+								| If you want to add a bit of noise in your design, so it did not look too boring, you can use ready-made dot background system or make your own background with Figma file, which is also included
+					.card.mb-4.border-0
+						.card-body.text-center
+							img.rounded-circle.mb-4.mx-auto(alt='Photo' src='/images/people/3.jpg', height="80")
+							h5.mb-3
+								| Marta Markes 
+							p.mb-0.text-muted.lead
+								| If you want to add a bit of noise in your design, so it did not look too boring, you can use ready-made dot background system or make your own background with Figma file, which is also included
+					.card.mb-4.border-0
+						.card-body.text-center
+							img.rounded-circle.mb-4.mx-auto(alt='Photo' src='/images/people/4.jpg', height="80")
+							h5.mb-3
+								| Marta Markes 
+							p.mb-0.text-muted.lead
+								| If you want to add a bit of noise in your design, so it did not look too boring, you can use ready-made dot background system or make your own background with Figma file, which is also included
+					.card.mb-4.border-0
+						.card-body.text-center
+							img.rounded-circle.mb-4.mx-auto(alt='Photo' src='/images/people/5.jpg', height="80")
+							h5.mb-3
+								| Marta Markes 
+							p.mb-0.text-muted.lead
+								| If you want to add a bit of noise in your design, so it did not look too boring, you can use ready-made dot background system or make your own background with Figma file, which is also included
+					.card.mb-4.border-0
+						.card-body.text-center
+							img.rounded-circle.mb-4.mx-auto(alt='Photo' src='/images/people/6.jpg', height="80")
+							h5.mb-3
+								| Marta Markes 
+							p.mb-0.text-muted.lead
+								| If you want to add a bit of noise in your design, so it did not look too boring, you can use ready-made dot background system or make your own background with Figma file, which is also included
+
+
+		// FOOTER 
+		include /utilities/_footer.pug
+		// light-footer(lead_bg_color, lead_border_color, lead_text_color, lead_btn_color, footer_bg, title_bg, text_color, link_color, subscribe_bg, subscribe_button, logo_file)
+
+		+light-footer('bg-white', '', '', 'btn-secondary', 'bg-light', 'text-dark', 'text-muted', 'text-muted', 'bg-gray', 'btn-gray', '/images/logo-popfacil-color-footer.png')
+
+		include /utilities/_scripts.pug

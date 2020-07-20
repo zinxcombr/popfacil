@@ -1,0 +1,9 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="battery-charge">
+<g id="battery-charge_2">
+<rect id="Layer 1" x="32" y="18" width="56" height="92" rx="3" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="Layer 2" x="50" y="10" width="20" height="8" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 3" fill-rule="evenodd" clip-rule="evenodd" d="M62.3201 58.7378V43.404C62.3201 41.7541 61.568 41.5235 60.6402 42.8977L45.4393 65.4137C44.51 66.7901 45.1037 67.9019 46.7621 67.9019H57.6799L57.6799 83.2357C57.6799 84.8856 58.432 85.1162 59.3598 83.742L74.5607 61.226C75.49 59.8495 74.8963 58.7378 73.2379 58.7378H62.3201V58.7378Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

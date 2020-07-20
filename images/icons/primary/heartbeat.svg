@@ -1,0 +1,8 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="heartbeat">
+<g id="heartbeat_2">
+<path id="Layer 1" fill-rule="evenodd" clip-rule="evenodd" d="M10 20.0001C10 14.4772 14.4747 10 20.0001 10H99.9999C105.523 10 110 14.4747 110 20.0001V99.9999C110 105.523 105.525 110 99.9999 110H20.0001C14.4772 110 10 105.525 10 99.9999V20.0001V20.0001Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" d="M16.1558 59.8564H27.8777L35.9637 70.2788L44.1051 49.7314L52.1805 79.8398L60 30L67.9766 79.8398L76.175 49.7314L83.9941 70.2788L92.1883 59.8564H103.926" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

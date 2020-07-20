@@ -1,0 +1,8 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="folder">
+<g id="folder_2">
+<path id="Layer 1" fill-rule="evenodd" clip-rule="evenodd" d="M40 25H107.007C108.66 25 110 26.3383 110 27.9901V102.01C110 103.661 108.662 105 107.007 105H12.9928C11.3399 105 10 103.662 10 102.01V25V18.0003C10 16.3433 11.3363 15 12.9982 15H31.8573C33.5132 15 35.4658 16.1864 36.2274 17.6667L40 25V25Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" fill-rule="evenodd" clip-rule="evenodd" d="M110 40V27.9901C110 26.3383 108.66 25 107.007 25H40L36.2274 17.6667C35.4658 16.1864 33.5132 15 31.8573 15H12.9982C11.3363 15 10 16.3433 10 18.0003V25V40H110V40Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,12 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="alien">
+<g id="alien_2">
+<path id="Layer 1" fill-rule="evenodd" clip-rule="evenodd" d="M60.3242 109.997C80.0396 109.997 105 81.4743 105 54.209C105 26.9436 87.3781 10.0409 60.3242 10.0409C59.974 9.94884 59.7291 10.0409 59.6758 10.0409C32.6219 10.0409 15 24.8489 15 54.209C15 83.5691 40.6089 109.997 60.3242 109.997Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" d="M54 90H66" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 3" d="M55 73C55 73 55.4187 73.9864 56.6012 74.6452" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 4" d="M64.6012 73C64.6012 73 64.1825 73.9864 63 74.6452" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 5" fill-rule="evenodd" clip-rule="evenodd" d="M35.8977 58.439C43.5886 63.8242 55.5591 59.9983 55.5591 59.9983C55.5591 59.9983 55.0601 47.4412 47.3692 42.056C39.6783 36.6708 27.7079 40.4967 27.7079 40.4967C27.7079 40.4967 28.2068 53.0538 35.8977 58.439V58.439Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 6" fill-rule="evenodd" clip-rule="evenodd" d="M84.3692 58.439C76.6783 63.8242 64.7079 59.9983 64.7079 59.9983C64.7079 59.9983 65.2068 47.4412 72.8977 42.056C80.5886 36.6708 92.5591 40.4967 92.5591 40.4967C92.5591 40.4967 92.0601 53.0538 84.3692 58.439V58.439Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

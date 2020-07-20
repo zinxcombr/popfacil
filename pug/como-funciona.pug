@@ -1,0 +1,109 @@
+doctype html
+html(lang="pt-br")
+	head
+		include /utilities/_head.pug
+	body
+
+
+		// HEADER
+		#header.bg-white
+			include /utilities/_navbar.pug
+			+navbar-mixin('navbar-light', 'btn-secondary')
+			#breadcrumbs.container
+				.row
+					.col
+						hr.mt-10
+						include /utilities/_breadcrumb.pug
+						+breadcrumb-mixin('text-muted', ['Home', 'Pages', 'Pricing'])
+			#title.container
+				.row
+					.col.text-center.pt-8
+						h1.display-2.mb-3 
+							| Como funciona?
+						p.lead.text-muted.mb-14 It's super easy to get started with PopFácil, as easy as adding the Facebook Pixel to your website.
+
+
+
+		// COMO FUNCIONA STEPS
+		.bg-light.mb-14
+			.container
+				.row.py-5
+					.col-lg-4.col-md-12.mb-4.text-center
+						.icon.bg-secondary-light.rounded.mb-4.p-2
+							img(alt='Icon' src='/images/icons/secondary/number-1.svg', height='40')
+						h5.mb-3 Content-oriented design
+						p.mx-2.lead
+							| If you want to add a bit of noise in your design, so it did not look too boring, you can use ready-made dot background system or make your own background with Figma file, which is also included
+					.col-lg-4.col-md-12.mb-4.text-center
+						.icon.bg-secondary-light.rounded.mb-4.p-2
+							img(alt='Icon' src='/images/icons/secondary/number-2.svg', height='40')
+						h5.mb-3 Background system
+						p.mx-2.lead
+							| If you want to add a bit of noise in your design, so it did not look too boring, you can use ready-made dot background system or make your own background with Figma file, which is also included
+					.col-lg-4.col-md-12.mb-4.text-center
+						.icon.bg-secondary-light.rounded.mb-4.p-2
+							img(alt='Icon' src='/images/icons/secondary/number-3.svg', height='40')
+						h5.mb-3 Free updates
+						p.mx-2.lead
+							| If you want to add a bit of noise in your design, so it did not look too boring, you can use ready-made dot background system or make your own background with Figma file, which is also included
+						
+
+		// COMO FUNCIONA TIMELINE
+		.container.pb-14.text-center.d-none.d-lg-block
+			.row
+				.col-lg-10.col-md-12.col-sm-12.mx-auto
+					.timeline
+						ul
+							li
+								.content
+									h3.h5.rounded-top
+										span.text-secondary 1. 
+										| Pick the type of widget you would like
+									p.rounded-bottom Edit and customize your Widget. Set your notification icon, title color, text, link.
+								
+								.date
+									img.w-100.rounded.border(alt='Illustration' src='https://via.placeholder.com/190x150')
+							li
+								.content
+									h3.h5.rounded-top
+										span.text-secondary 2. 
+										| Pick the type of widget you would like
+									p.rounded.bottom Edit and customize your Widget. Set your notification icon, title color, text, link.
+								
+								.date
+									img.w-100.rounded.border(alt='Illustration' src='https://via.placeholder.com/190x150')
+							li
+								.content
+									h3.h5.rounded-top
+										span.text-secondary 3. 
+										| Pick the type of widget you would like
+									p.rounded-bottom Edit and customize your Widget. Set your notification icon, title color, text, link.
+								
+								.date
+									img.w-100.rounded.border(alt='Illustration' src='https://via.placeholder.com/190x150')
+							li
+								.content
+									h3.h5.rounded-top.bg-primary
+										span.text-white.text-center
+											| Aproveite seus Stats!
+									p.rounded-bottom Edit and customize your Widget. Set your notification icon, title color, text, link.
+								
+								.date
+									img.w-100.rounded.border(alt='Illustration' src='https://via.placeholder.com/190x150')
+
+
+
+  
+
+
+
+
+
+
+		// FOOTER 
+		include /utilities/_footer.pug
+		// light-footer(lead_bg_color, lead_border_color, lead_text_color, lead_btn_color, footer_bg, title_bg, text_color, link_color, subscribe_bg, subscribe_button, logo_file)
+
+		+light-footer('bg-white', '', '', 'btn-secondary', 'bg-light', 'text-dark', 'text-muted', 'text-muted', 'bg-gray', 'btn-gray', '/images/logo-popfacil-color-footer.png')
+
+		include /utilities/_scripts.pug

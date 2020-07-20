@@ -1,0 +1,10 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="towel">
+<g id="45-holidays-hanger-cloth">
+<path id="Layer 1" d="M51 19C51 14.0294 55.0294 10 60 10C64.9706 10 69 14.0294 69 19C69 23.9706 64.9706 28 60 28V39.8438" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" fill-rule="evenodd" clip-rule="evenodd" d="M30 80C19.6717 80 12.5995 80 12.5995 80C6.71585 76.674 12.6465 72.1726 12.7377 72.1694L52.1881 42.4037C56.434 39.2002 63.314 39.1973 67.5637 42.4037L107.152 72.1743C107.152 72.1743 113.56 76.9835 107.152 80C103.86 80 97.6833 80 90 80V75H30V80V80Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="Layer 3" x="30" y="75" width="60" height="35" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="Layer 4" x="30" y="101" width="60" height="9" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

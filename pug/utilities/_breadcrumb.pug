@@ -1,0 +1,9 @@
+mixin breadcrumb-mixin(links_color, links)
+
+	nav.mb-0.pt-3.pb-1(aria-label='breadcrumb')
+		ol.breadcrumb
+
+			each val in links
+
+				li.breadcrumb-item(class= links_color)
+					a(href='#', class='btn-link ' + links_color)= val

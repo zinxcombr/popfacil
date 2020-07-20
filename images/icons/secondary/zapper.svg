@@ -1,0 +1,13 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="zapper">
+<g id="zapper_2">
+<rect id="Layer 1" x="82" y="30" width="8" height="40" rx="4" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="Layer 2" x="65" y="30" width="8" height="40" rx="4" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="Layer 3" x="74" y="22" width="8" height="56" rx="4" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 4" d="M91 50H100" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 5" fill-rule="evenodd" clip-rule="evenodd" d="M105 55C107.761 55 110 52.7614 110 50C110 47.2386 107.761 45 105 45C102.239 45 100 47.2386 100 50C100 52.7614 102.239 55 105 55Z" fill="#E83E8C" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 6" fill-rule="evenodd" clip-rule="evenodd" d="M18.3396 97.9922L12.5151 98.0309C10.8632 98.0419 9.79442 96.733 10.1272 95.1105L16.9294 61.9407C13.6469 59.0108 11.5803 54.7473 11.5803 50C11.5803 41.1634 18.7496 34 27.5805 34H45V66H38.7351L31.2708 91.0318C32.9826 91.2632 34.3023 92.731 34.3023 94.5C34.3023 96.433 32.7285 98 30.7972 98H18.5752C18.496 98 18.4175 97.9974 18.3396 97.9922V97.9922Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 7" d="M65 64C66.1046 64 67 63.1046 67 62C67 60.8954 66.1046 60 65 60V64ZM45 60C43.8954 60 43 60.8954 43 62C43 63.1046 43.8954 64 45 64V60ZM45 36C43.8954 36 43 36.8954 43 38C43 39.1046 43.8954 40 45 40V36ZM65 40C66.1046 40 67 39.1046 67 38C67 36.8954 66.1046 36 65 36V40ZM65 60H45V64H65V60ZM45 40H65V36H45V40Z" fill="#E83E8C"/>
+</g>
+</g>
+</svg>

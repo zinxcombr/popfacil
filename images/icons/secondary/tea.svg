@@ -1,0 +1,11 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="tea">
+<g id="tea_2">
+<path id="Layer 1" fill-rule="evenodd" clip-rule="evenodd" d="M80 56.5064C80 56.1568 80.1825 55.8327 80.4814 55.6514L89.2915 50.3083C89.6048 50.1183 89.9969 50.1148 90.3135 50.2993L99.5034 55.654C99.8109 55.8332 100 56.1622 100 56.5181V75.3921C100 75.9444 99.5523 76.3921 99 76.3921H81C80.4477 76.3921 80 75.9444 80 75.3921V56.5064Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" fill-rule="evenodd" clip-rule="evenodd" d="M20 49.9316L29.9141 40H59.9639L70 49.7783V107C70 108.657 68.6569 110 67 110H23C21.3431 110 20 108.657 20 107V49.9316Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 3" fill-rule="evenodd" clip-rule="evenodd" d="M20 70.1018L70 70V107C70 108.657 68.6569 110 67 110H23C21.3431 110 20 108.657 20 107V70.1018Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 4" d="M45 40.0405V31.0062C45 19.4048 54.4061 10 66.0014 10H68.9986C80.5974 10 90 19.408 90 31.0062V49.9971" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 5" d="M34.561 49.2207H56.561" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

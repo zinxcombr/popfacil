@@ -1,0 +1,10 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="microscope">
+<g id="microscope_2">
+<path id="Layer 1" fill-rule="evenodd" clip-rule="evenodd" d="M64.619 35.9365C65.9029 35.7898 67.2084 35.7144 68.5314 35.7144C87.4101 35.7144 102.714 51.0646 102.714 70.0001C102.714 79.2166 99.0886 87.5837 93.1899 93.7448C93.1903 93.7645 93.1905 93.7843 93.1905 93.8041V107.148C93.1905 108.723 91.9159 110 90.3428 110H19.8477C18.275 110 17 108.721 17 107.148V93.8041C17 92.2292 18.2746 90.9525 19.8477 90.9525H79.2115C86.7328 87.139 91.8897 79.3165 91.8897 70.2858C91.8897 57.5044 81.5594 47.143 68.8163 47.143C67.3829 47.143 65.9801 47.2741 64.619 47.5249L64.619 57.6192H45.5714V22.3873C45.5714 20.8059 46.8508 19.5239 48.423 19.5239H64.619V35.9365V35.9365Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" fill-rule="evenodd" clip-rule="evenodd" d="M64.619 57.6191V63.8096C64.619 67.2285 61.8493 70.0001 58.4348 70.0001H51.7556C48.3402 70.0001 45.5714 67.2216 45.5714 63.8096V57.6191H64.619Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="Layer 3" x="55.0952" y="10" width="9.52381" height="9.52381" rx="2" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 4" d="M36.0476 84.4287C36.0476 82.7719 37.3908 81.4287 39.0476 81.4287H71.1428C72.7997 81.4287 74.1428 82.7719 74.1428 84.4287V90.9525H36.0476V84.4287Z" stroke="#E83E8C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

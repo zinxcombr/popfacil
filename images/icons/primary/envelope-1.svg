@@ -1,0 +1,9 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="envelope">
+<g id="envelope_2">
+<path id="Layer 1" fill-rule="evenodd" clip-rule="evenodd" d="M10 20H110V100H73.2578H10V20Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 2" fill-rule="evenodd" clip-rule="evenodd" d="M110 99.9998L66.205 64.9639L60 69.9998L53.795 64.9639L10 99.9998H110Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Layer 3" fill-rule="evenodd" clip-rule="evenodd" d="M10 20V30.1449L60 70L110 30.1449V20H10Z" stroke="#1BB4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

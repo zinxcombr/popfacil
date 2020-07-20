@@ -1,0 +1,43 @@
+doctype html
+html(lang="pt-br")
+	head
+		include /utilities/_head.pug
+	body
+
+
+		// HEADER
+		#header
+			include /utilities/_navbar.pug
+			+navbar-mixin('navbar-light', 'btn-secondary')
+			#breadcrumbs.container
+				.row
+					.col
+						hr.mt-10
+						include /utilities/_breadcrumb.pug
+						+breadcrumb-mixin('text-muted', ['Home', 'Pages', '404'])
+
+
+		// CONTENT
+		.bg-white.pb-8
+			.container
+				.row(style="min-height: 70vh")
+					.col-lg-5.col-md-12.my-auto.py-5.mr-auto
+						.mb-2.initialism.text-muted Erro 404
+						h1.display-2.mb-2 Página não encontrada
+						p.lead.mb-5.mr-5
+							| Parece que não conseguimos encontrar a página que você está procurando. Estamos trabalhando nisso!
+						a.icon.rounded-circle.btn.btn-facebook.mr-2(href="#")
+							i.fab.fa-facebook-f
+						a.icon.rounded-circle.btn.btn-twitter.mr-2(href="#")
+							i.fab.fa-twitter
+					.col-lg-6.col-md-12.my-auto.py-5
+						img.w-100(alt='Illustration' src='/images/illustrations/illustration_3.png')
+
+
+		// FOOTER 
+		include /utilities/_footer.pug
+		// light-footer(lead_bg_color, lead_border_color, lead_text_color, lead_btn_color, footer_bg, title_bg, text_color, link_color, subscribe_bg, subscribe_button, logo_file)
+
+		+light-footer('bg-white', '', '', 'btn-secondary', 'bg-light', 'text-dark', 'text-muted', 'text-muted', 'bg-gray', 'btn-gray', '/images/logo-popfacil-color-footer.png')
+
+		include /utilities/_scripts.pug
