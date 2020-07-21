@@ -66,7 +66,7 @@ mixin light-footer(lead_bg_color, lead_border_color, lead_text_color, lead_btn_c
 
 					form(name="novidades", method="POST", data-netlify="true", action="/avisos/novidades-sucesso.html")
 						.input-group.mb-3.p-0.rounded
-								input.form-control.p-3.border-0.rounded-left(type='text', placeholder="Seu melhor email", name="email", class=subscribe_bg)
+								input.form-control.p-3.border-0.rounded-left(type='text', placeholder="Seu melhor email", required, name="email", class=subscribe_bg)
 								.input-group-append
 									button#button-addon.btn.px-3.border-0(type='submit', class=subscribe_button + ' ' + link_color)
 										i.fas.fa-paper-plane  
