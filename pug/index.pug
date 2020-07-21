@@ -56,32 +56,32 @@ html(lang="pt-br")
 			.container
 				.row
 					.col-lg-3.col-md-6.col-sm-12.text-center.mb-5
-						.icon.mb-4.p-3
-							img(alt='Icon' src='/images/icons/primary/cursor-click-2.svg', height='48')
+						.icon.mb-4.p-3.bg-primary.rounded
+							img(alt='Icon' src='/images/icons/white/layers-1.svg', height='48')
 						h5
 							span.counter#counter_1
 							|
 							|
 							span.text-muted clicks
 					.col-lg-3.col-md-6.col-sm-12.text-center.mb-5
-						.icon.mb-4.p-3
-							img(alt='Icon' src='/images/icons/primary/magic-1.svg', height='48')
+						.icon.mb-4.p-3.bg-primary.rounded
+							img(alt='Icon' src='/images/icons/white/notebook-1.svg', height='48')
 						h5
 							span.counter#counter_2
 							| +
 							|
 							span.text-muted sponsors
 					.col-lg-3.col-md-6.col-sm-12.text-center.mb-5
-						.icon.mb-4.p-3
-							img(alt='Icon' src='/images/icons/primary/layers-3.svg', height='48')
+						.icon.mb-4.p-3.bg-primary.rounded
+							img(alt='Icon' src='/images/icons/white/user.svg', height='48')
 						h5
 							span.counter#counter_3
 							|
 							|
 							span.text-muted bits
 					.col-lg-3.col-md-6.col-sm-12.text-center.mb-5
-						.icon.mb-4.p-3
-							img(alt='Icon' src='/images/icons/primary/chart-up.svg', height='48')
+						.icon.mb-4.p-3.bg-primary.rounded
+							img(alt='Icon' src='/images/icons/white/medal.svg', height='48')
 						h5
 							| $
 							span.counter#counter_4
@@ -97,11 +97,11 @@ html(lang="pt-br")
 						nav.mb-5
 							.nav.nav-tabs.d-inline-flex.mx-auto(role="tablist")
 								a.nav-item.nav-link.px-4.active(id="nav-tab-1" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true")
-									h5 Billing
+									h5 Texto
 								a.nav-item.nav-link.px-4(id="nav-tab-2" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="true")
-									h5 Profile
+									h5 Design
 								a.nav-item.nav-link.px-4(id="nav-tab-3" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="true")
-									h5 Admin
+									h5 Gatilhos
 				.tab-content
 					.tab-pane.fade.show.active(id="tab-1" role="tabpanel" aria-labelledby="nav-tab-1")
 						.row
@@ -109,12 +109,12 @@ html(lang="pt-br")
 								img.w-100.mb-5.zoom(alt='Macbook' src='/images/devices/macbook_01.png')
 							.col-lg-2.col-md-12.col-sm-12.my-auto.order-lg-0.order-xl-0(data-aos="fade-right")
 								.icon.rounded.text-secondary.bg-secondary-light.mb-3
-									i.fas.fa-cloud-download-alt
+									i.fas.fa-bold
 								h3.h5 Free updates
 								p.text-muted.mb-5 Replacer is constantly growing and updatable theme, and we have long-term plans to making it better according to your feedback
 							.col-lg-2.col-md-12.col-sm-12.my-auto.order-lg-2.order-xl-2(data-aos="fade-left")
 								.icon.rounded.text-secondary.bg-secondary-light.mb-3
-									i.fas.fa-adjust
+									i.fas.fa-image
 								h3.h5 Personalização Total
 								p.text-muted.mb-5 If you want to add a bit of noise in your design, so it did not look too boring, you can use ready-made dot background system
 					.tab-pane.fade.show(id="tab-2" role="tabpanel" aria-labelledby="nav-tab-2")
@@ -128,8 +128,8 @@ html(lang="pt-br")
 								p.text-muted.mb-5 Replacer has an extremely solid and clean design to focus your visitors on what you want to tell them
 							.col-lg-2.col-md-12.col-sm-12.my-auto.order-lg-2.order-xl-2
 								.icon.rounded.text-secondary.bg-secondary-light.mb-3
-									i.fas.fa-image
-								h3.h5 Exclusive illustrations
+									i.fas.fa-square
+								h3.h5 Bordas
 								p.text-muted.mb-5 We made illustrations and line icons, especially for Replacer. Feel free to customize them in Figma file, which also included
 					.tab-pane.fade.show(id="tab-3" role="tabpanel" aria-labelledby="nav-tab-3")
 						.row
@@ -137,14 +137,14 @@ html(lang="pt-br")
 								img.w-100.mb-5.zoom(alt='Macbook' src='/images/devices/macbook_03.png')
 							.col-lg-2.col-md-12.col-sm-12.my-auto.order-lg-0.order-xl-0
 								.icon.rounded.text-secondary.bg-secondary-light.mb-3
-									i.fas.fa-file
-								h3.h5 Easy to understand
-								p.text-muted.mb-5 Replacer uses Bootstrap components to the fullest. We didn't code new CSS styles if Bootstrap already had the solution
+									i.fas.fa-toggle-on
+								h3.h5 Trigers Rules
+								p.text-muted.mb-5 Decide how and when to display your notifications
 							.col-lg-2.col-md-12.col-sm-12.my-auto.order-lg-2.order-xl-2
 								.icon.rounded.text-secondary.bg-secondary-light.mb-3
-									i.fas.fa-question-circle
-								h3.h5 6 months free support
-								p.text-muted.mb-5 We are here for you to provide excellent support for 6 months, feel free to ask anything 
+									i.fas.fa-clock
+								h3.h5  Delay between notifications
+								p.text-muted.mb-5  Delay between notifications
 
 
 		// FEATURES
@@ -157,13 +157,13 @@ html(lang="pt-br")
 						.initialism.mb-5.text-primary Killer features
 						.row.mb-1
 							.col.d-flex.py-2
-								img(alt='Icon' src='/images/icons/primary/energy.svg', height='48')
+								img(alt='Icon' src='/images/icons/secondary/bulb.svg', height='48')
 								.ml-3
-									h3.h5 Personalização Poderosa
+									h3.h5 Pré-vizualicao
 									p.text-muted.mr-5 Replacer uses Bootstrap components to the fullest. We didn't code new CSS styles if Bootstrap already had the solution, so the theme loads quickly and easy to customize, and in many cases, you won't need to read more documentation than necessary
 						.row.mb-1
 							.col.d-flex.py-2
-								img(alt='Icon' src='/images/icons/primary/mac.svg', height='48')
+								img(alt='Icon' src='/images/icons/secondary/layers-3.svg', height='48')
 								.ml-3
 									h3.h5 Controle de Exibição
 									p.text-muted.mr-5 Replacer has an extremely solid and clean design to focus your visitors on what you want to tell them, and this lightweight design will never go out of trends
@@ -196,11 +196,36 @@ html(lang="pt-br")
 							.card.rounded.overflow-hidden.border-0
 								img.w-100(alt='Slide' src='/images/demo-1.png')
 
-									
+								
+		// STATS
+		#features2.border-top.border-bottom
+			.container
+				.row.py-6
+					.col-lg-5.col-md-12.mr-auto.my-auto.py-8(data-aos="fade")
+						.mb-3.initialism.text-primary Stats Completo
+						p.lead.mb-5.mr-6
+							| If you want to add a bit of noise in your design, so it did not look too boring, you can use ready-made dot background system
+						.row
+							.col-lg-6.col-md-12
+								.icon.icon-sm.rounded.text-secondary.bg-secondary-light.mb-3
+									i.fa.fa-chart-line
+								h3.h5.mb-2 Gráfico de Estatistica
+								p.text-muted.mb-0
+									| If you want to add a bit of noise in your design, so it did not look too boring, you can use ready-made dot background system or make your own
+							.col-lg-6.col-md-12
+								.icon.icon-sm.rounded.text-secondary.bg-secondary-light.mb-3
+									i.fas.fa-file-code
+								h3.h5.mb-2 Páginas mais exibidas
+								p.text-muted.mb-0
+									| If you want to add a bit of noise in your design, so it did not look too boring, you can use ready-made dot background system or make your own
+					.col-lg-6.col-md-12.my-auto(data-aos="fade-left")
+						img.m-auto.w-100.zoom(src='/images/devices/macbook_04.png', alt='Screenshot')
+
+
 
 
 		// TESTIMONIALS
-		#testimonials.py-14
+		#testimonials.py-14.bg-light
 			.container
 				.row.mb-6.text-center(data-aos="fade")
 					.col
