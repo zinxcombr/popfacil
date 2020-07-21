@@ -36,19 +36,29 @@ html(lang="pt-br")
 
 
 		// NOTICE
-		#notice(data-aos="fade")
-			.alert.alert-warning-light.rounded-0.border-0.py-3(role="alert")
-				.container
-					.row.no-gutters
-						.col.d-flex.flex-column.flex-lg-row.flex-xl-row
-							.my-auto.mr-auto.text-muted
-								span.icon.icon-sm.text-white.mr-2
-									i.fas.fa-user
-								|  Aproveite a promoção 30% de Desconto no plano Vitalicio
-							.my-auto.py-2
-								a.btn.btn-primary.btn-sm.rounded-pill.px-3(href='https://popkit.site/register')
-									i.far.fa-clone.mr-2
-									| Eu quero!
+		#notice.border-top
+			.container(data-aos="fade")
+				.row.py-3
+					.col
+						.alert.py-0.my-0.mx-auto.d-flex.flex-column.flex-lg-row.justify-content-center
+							.my-auto.py-2.text-center
+								span.my-3.badge.badge-pill.badge-primary-light.text-primary.initialism.mx-3.d-inline
+									i.fa.fa-bolt.mr-2
+									| Discount
+							.my-auto.py-2.text-center
+								span.text-muted To get &ndash;10% off use this coupone code: 
+								mark.rounded.px-2 RPLCR10
+				hr
+
+
+		// EXAMPLES
+		.pt-12.pb-8.bg-light
+			.container
+				.row
+					.col
+						img.img-fluid(alt='Exemplo de Widgets' src='/images/examples.png')
+
+
 
 
 		// COUNTERS
