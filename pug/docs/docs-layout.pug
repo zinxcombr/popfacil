@@ -13,11 +13,13 @@ html(lang="pt-br")
 				.row
 					.col
 						hr.mt-10
-						include /utilities/_breadcrumb.pug
-						+breadcrumb-mixin('text-muted', ['Home', 'Documentação'])
+						nav.mb-0.pt-3.pb-1(aria-label='breadcrumb')
+							ol.breadcrumb.mb-0
+								li.breadcrumb-item.active(aria-current="page")
+									| DOCUMENTAÇÃO
 
 		
-		// CONTENTd
+		// CONTENT
 		.container.pt-2
 
 				.row

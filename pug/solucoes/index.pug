@@ -13,8 +13,12 @@ html(lang="pt-br")
 				.row
 					.col
 						hr.mt-10
-						include /utilities/_breadcrumb.pug
-						+breadcrumb-mixin('text-muted', ['Home', 'Pages', 'Pricing'])
+						nav.mb-0.pt-3.pb-1(aria-label='breadcrumb')
+							ol.breadcrumb.mb-0
+								li.breadcrumb-item.text-muted
+									| Home
+								li.breadcrumb-item.active(aria-current="page")
+									| Soluções
 			#title.container
 				.row
 					.col.text-center.pt-8
@@ -26,24 +30,29 @@ html(lang="pt-br")
 		// SOLUCOES
 		.bg-white.pb-14
 			.container.rounded-lg(data-aos="fade")
-				.row.text-center
-					.col.mt-8.mb-6
-						span.text-muted.initialism O que gostaria de solucionar?
 
 				.row
 					.col-lg-6.col-md-6.col-sm-12.mb-4
-						a(href="/demo/demo-basic.html")
-							img.w-100.hvr-float.rounded.border(alt='Demo 1' src='/images/homepage/demo1.jpg')
+						a(href="/solucoes/prova-social.html")
+							.solucao.text-center.hvr-float.card.p-5
+								h2.h4 🥇 Crie Prova Social
+								p.lead 129351Lorem ipsum dskdjsld sljdl jdlj sld ljlljk sd sd lksds ldkjsldj slkd.
 					.col-lg-6.col-md-6.col-sm-12.mb-4
-						a(href="/demo/demo-startup1.html")
-							img.w-100.hvr-float.rounded(alt='Demo 2' src='/images/homepage/demo2.jpg')
+						a(href="/solucoes/promova-seu-produto.html")
+							.solucao.text-center.hvr-float.card.p-5
+								h2.h4 📣 Promova seu Produto ou Serviço
+								p.lead Lorem ipsum dskdjsld sljdl jdlj sld ljlljk sd sd lksds ldkjsldj slkd.
 				.row
 					.col-lg-6.col-md-6.col-sm-12.mb-4
-						a(href="/demo/demo-startup2.html")
-							img.w-100.hvr-float.rounded.border(alt='Demo 3' src='/images/homepage/demo3.jpg')
+						a(href="/solucoes/aumente-sua-lista-de-emails.html")
+							.solucao.text-center.hvr-float.card.p-5
+								h2.h4 📧 Aumente sua lista de emails
+								p.lead Lorem ipsum dskdjsld sljdl jdlj sld ljlljk sd sd lksds ldkjsldj slkd.
 					.col-lg-6.col-md-6.col-sm-12.mb-4
-						a(href="/demo/demo-startup3.html")
-							img.w-100.hvr-float.rounded.border(alt='Demo 4' src='/images/homepage/demo4.jpg')
+						a(href="/solucoes/aumente-suas-chamadas-telefonicas.html")
+							.solucao.text-center.hvr-float.card.p-5
+								h2.h4 🤳 Aumente suas chamadas telefônicas
+								p.lead Lorem ipsum dskdjsld sljdl jdlj sld ljlljk sd sd lksds ldkjsldj slkd.
 
 
 						

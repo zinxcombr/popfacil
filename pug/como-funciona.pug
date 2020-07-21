@@ -13,8 +13,12 @@ html(lang="pt-br")
 				.row
 					.col
 						hr.mt-10
-						include /utilities/_breadcrumb.pug
-						+breadcrumb-mixin('text-muted', ['Home', 'Pages', 'Pricing'])
+						nav.mb-0.pt-3.pb-1(aria-label='breadcrumb')
+							ol.breadcrumb.mb-0
+								li.breadcrumb-item.text-muted
+									| Home
+								li.breadcrumb-item.active(aria-current="page")
+									| Como Funciona
 			#title.container
 				.row
 					.col.text-center.pt-8
@@ -61,8 +65,8 @@ html(lang="pt-br")
 										| Pick the type of widget you would like
 									p.rounded-bottom Edit and customize your Widget. Set your notification icon, title color, text, link.
 								
-								.date
-									img.w-100.rounded.border(alt='Illustration' src='https://via.placeholder.com/190x150')
+								.date.shadow-lg
+									img.rounded.border(alt='Illustration' src='/images/step-1.png')
 							li
 								.content
 									h3.h5.rounded-top
@@ -70,8 +74,8 @@ html(lang="pt-br")
 										| Pick the type of widget you would like
 									p.rounded.bottom Edit and customize your Widget. Set your notification icon, title color, text, link.
 								
-								.date
-									img.w-100.rounded.border(alt='Illustration' src='https://via.placeholder.com/190x150')
+								.date.shadow-lg
+									img.rounded.border(alt='Illustration' src='/images/step-2.png')
 							li
 								.content
 									h3.h5.rounded-top
@@ -79,17 +83,17 @@ html(lang="pt-br")
 										| Pick the type of widget you would like
 									p.rounded-bottom Edit and customize your Widget. Set your notification icon, title color, text, link.
 								
-								.date
-									img.w-100.rounded.border(alt='Illustration' src='https://via.placeholder.com/190x150')
-							li
+								.date.shadow-lg
+									img.rounded.border(alt='Illustration' src='/images/step-3.png')
+							li.mt-14
 								.content
 									h3.h5.rounded-top.bg-primary
 										span.text-white.text-center
-											| Aproveite seus Stats!
+											| 🚀 Aproveite seus Stats!
 									p.rounded-bottom Edit and customize your Widget. Set your notification icon, title color, text, link.
 								
 								.date
-									img.w-100.rounded.border(alt='Illustration' src='https://via.placeholder.com/190x150')
+									img.w-100.zoom(alt='Illustration' src='/images/devices/macbook_04.png')
 
 
 

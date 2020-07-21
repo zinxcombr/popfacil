@@ -13,8 +13,14 @@ html(lang="pt-br")
 				.row
 					.col
 						hr.mt-10
-						include /utilities/_breadcrumb.pug
-						+breadcrumb-mixin('text-muted', ['Home', 'Pages', 'Pricing'])
+						nav.mb-0.pt-3.pb-1(aria-label='breadcrumb')
+							ol.breadcrumb.mb-0
+								li.breadcrumb-item.text-muted
+									| Home
+								li.breadcrumb-item.text-muted
+									| Soluções
+								li.breadcrumb-item.active(aria-current="page")
+									| Aumente sua Lista de Emails
 
 
 
@@ -33,7 +39,7 @@ html(lang="pt-br")
 								| Começe a Aumente sua Lista
 								i.far.fa-arrow-alt-circle-right.ml-2
 						.col-md-4
-							img.w-100(alt='Illustration' src='/images/illustrations/illustration_1.png')
+							img.w-100(alt='Illustration' src='/images/illustrations/illustration_7.png')
 
 
 						

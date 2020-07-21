@@ -6,19 +6,23 @@ html(lang="pt-br")
 
 
 		// HEADER
-		#header.bg-primary.mb-1(style="background: linear-gradient(45deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2)) 0%, url('/images/photos/room-FZrn8fhqpp8-unsplash.jpg') center; background-size: cover;")
+		#header.bg-primary.mb-1(style="background: linear-gradient(45deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2)) 0%, url('/images/photos/emile-perron-xrVDYZRGdw4-unsplash.jpg') center; background-size: cover;")
 			include /utilities/_navbar-transparent.pug
 			+navbar-mixin('navbar-dark', 'btn-secondary')
-			.container
+			#breadcrumbs.container
 				.row
 					.col
-						hr.mt-10.border-light.opacity-1
-						include /utilities/_breadcrumb.pug
-						+breadcrumb-mixin('text-white', ['Home', 'Pages', 'About'])
+						hr.mt-10
+						nav.mb-0.pt-3.pb-1(aria-label='breadcrumb')
+							ol.breadcrumb.mb-0
+								li.breadcrumb-item.text-muted
+									| Home
+								li.breadcrumb-item.active(aria-current="page")
+									| Sobre Nós
 				.row
 					.col-lg-9.col-md-12.pb-12.pt-8.mx-auto
 						h1.display-2.text-white.mb-3  
-							| Sobre nós
+							| Sobre Nós
 						p.lead.text-white To spread the power of good&nbsp;design
 
 

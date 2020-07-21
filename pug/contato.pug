@@ -13,8 +13,12 @@ html(lang="pt-br")
 				.row
 					.col
 						hr.mt-10
-						include /utilities/_breadcrumb.pug
-						+breadcrumb-mixin('text-muted', ['Home', 'Pages', 'Pricing'])
+						nav.mb-0.pt-3.pb-1(aria-label='breadcrumb')
+							ol.breadcrumb.mb-0
+								li.breadcrumb-item.text-muted
+									| Home
+								li.breadcrumb-item.active(aria-current="page")
+									| Contato
 			#title.container
 				.row
 					.col.text-center.pt-8.pb-6

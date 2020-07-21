@@ -13,8 +13,12 @@ html(lang="pt-br")
 				.row
 					.col
 						hr.mt-10
-						include /utilities/_breadcrumb.pug
-						+breadcrumb-mixin('text-muted', ['Home', 'Pages', 'Pricing'])
+						nav.mb-0.pt-3.pb-1(aria-label='breadcrumb')
+							ol.breadcrumb.mb-0
+								li.breadcrumb-item.text-muted
+									| Home
+								li.breadcrumb-item.active(aria-current="page")
+									| Widgets
 			#title.container
 				.row
 					.col.text-center.pt-8
@@ -35,164 +39,164 @@ html(lang="pt-br")
 								.card-body.px-5.pt-4
 									.ribbon.ribbon-top-right
 										span Pro
-									a.h5.text-dark.stretched-link(href="barra-informativa.html") Barra Informativa
+									i.fas.fa-info.fa-2x.d-block.text-center
+									a.h5.text-dark.stretched-link.text-center.d-block.mt-3(href="barra-informativa.html") Barra Informativa
 									p.text-muted.my-2 Replacer is the modern and powerful theme for making landing pages on Bootstrap 4. You may customize
-									img.card-img-top(alt='Photo' src='/images/photos/1200x800/5.jpg')
 					.col-md-4.mb-4
 						.card.rounded-lg.overflow-hidden.hvr-float.box
 								.card-body.px-5.pt-4
 									.ribbon.ribbon-top-right
 										span Pro
-									a.h5.text-dark.stretched-link(href="barra-coletora-lead.html") Barra coletora de leads
+									i.fas.fa-inbox.fa-2x.d-block.text-center
+									a.h5.text-dark.stretched-link.text-center.d-block.mt-3(href="barra-coletora-lead.html") Barra coletora de leads
 									p.text-muted.my-2 Replacer is the modern and powerful theme for making landing pages on Bootstrap 4. You may customize
-									img.card-img-top(alt='Photo' src='/images/photos/1200x800/5.jpg')
 					.col-md-4.mb-4
 						.card.rounded-lg.overflow-hidden.hvr-float.box
 								.card-body.px-5.pt-4
 									.ribbon.ribbon-top-right
 										span Pro
-									a.h5.text-dark.stretched-link(href="barra-cupom.html") Barra de cupom de desconto
+									i.fas.fa-money-check-alt.fa-2x.d-block.text-center
+									a.h5.text-dark.stretched-link.text-center.d-block.mt-3(href="barra-cupom.html") Barra de cupom de desconto
 									p.text-muted.my-2 Replacer is the modern and powerful theme for making landing pages on Bootstrap 4. You may customize
-									img.card-img-top(alt='Photo' src='/images/photos/1200x800/5.jpg')
 				.row
 					.col-md-4.mb-4
 						.card.rounded-lg.overflow-hidden.hvr-float.box
 								.card-body.px-5.pt-4
 									.ribbon.ribbon-top-right
 										span Grátis
-									a.h5.text-dark.stretched-link(href="barra-botao.html") Barra de botão
+									i.fas.fa-newspaper.fa-2x.d-block.text-center
+									a.h5.text-dark.stretched-link.text-center.d-block.mt-3(href="barra-botao.html") Barra de botão
 									p.text-muted.my-2 Replacer is the modern and powerful theme for making landing pages on Bootstrap 4. You may customize
-									img.card-img-top(alt='Photo' src='/images/photos/1200x800/5.jpg')
 					.col-md-4.mb-4
 						.card.rounded-lg.overflow-hidden.hvr-float.box
 								.card-body.px-5.pt-4
 									.ribbon.ribbon-top-right
 										span Grátis
-									a.h5.text-dark.stretched-link(href="coletor-lead.html") Coletor de leads
+									i.fas.fa-fire.fa-2x.d-block.text-center
+									a.h5.text-dark.stretched-link.text-center.d-block.mt-3(href="coletor-lead.html") Coletor de leads
 									p.text-muted.my-2 Replacer is the modern and powerful theme for making landing pages on Bootstrap 4. You may customize
-									img.card-img-top(alt='Photo' src='/images/photos/1200x800/5.jpg')
 					.col-md-4.mb-4
 						.card.rounded-lg.overflow-hidden.hvr-float.box
 								.card-body.px-5.pt-4
 									.ribbon.ribbon-top-right
 										span Grátis
-									a.h5.text-dark.stretched-link(href="coletor-lead-grande.html") Coletor de leads grande
+									i.fas.fa-dice.fa-2x.d-block.text-center
+									a.h5.text-dark.stretched-link.text-center.d-block.mt-3(href="coletor-lead-grande.html") Coletor de leads grande
 									p.text-muted.my-2 Replacer is the modern and powerful theme for making landing pages on Bootstrap 4. You may customize
-									img.card-img-top(alt='Photo' src='/images/photos/1200x800/5.jpg')
 				.row
 					.col-md-4.mb-4
 						.card.rounded-lg.overflow-hidden.hvr-float
 								.card-body.px-5.pt-4
-									a.h5.text-dark.stretched-link(href="chamada-acao.html") Chamada para ação
+									i.fas.fa-cloud.fa-2x.d-block.text-center
+									a.h5.text-dark.stretched-link.text-center.d-block.mt-3(href="chamada-acao.html") Chamada para ação
 									p.text-muted.my-2 Replacer is the modern and powerful theme for making landing pages on Bootstrap 4. You may customize
-									img.card-img-top(alt='Photo' src='/images/photos/1200x800/5.jpg')
 					.col-md-4.mb-4
 						.card.rounded-lg.overflow-hidden.hvr-float
 								.card-body.px-5.pt-4
-									a.h5.text-dark.stretched-link(href="feedback-texto.html") Feedback por texto
+									i.fas.fa-heading.fa-2x.d-block.text-center
+									a.h5.text-dark.stretched-link.text-center.d-block.mt-3(href="feedback-texto.html") Feedback por texto
 									p.text-muted.my-2 Replacer is the modern and powerful theme for making landing pages on Bootstrap 4. You may customize
-									img.card-img-top(alt='Photo' src='/images/photos/1200x800/5.jpg')
 					.col-md-4.mb-4
 						.card.rounded-lg.overflow-hidden.hvr-float
 								.card-body.px-5.pt-4
-									a.h5.text-dark.stretched-link(href="links-engajamento.html") Links de engajamento
+									i.fas.fa-link.fa-2x.d-block.text-center
+									a.h5.text-dark.stretched-link.text-center.d-block.mt-3(href="links-engajamento.html") Links de engajamento
 									p.text-muted.my-2 Replacer is the modern and powerful theme for making landing pages on Bootstrap 4. You may customize
-									img.card-img-top(alt='Photo' src='/images/photos/1200x800/5.jpg')
 				.row
 					.col-md-4.mb-4
 						.card.rounded-lg.overflow-hidden.hvr-float
 								.card-body.px-5.pt-4
-									a.h5.text-dark.stretched-link(href="informativo.html") Informativo
+									i.fas.fa-info-circle.fa-2x.d-block.text-center
+									a.h5.text-dark.stretched-link.text-center.d-block.mt-3(href="informativo.html") Informativo
 									p.text-muted.my-2 Replacer is the modern and powerful theme for making landing pages on Bootstrap 4. You may customize
-									img.card-img-top(alt='Photo' src='/images/photos/1200x800/5.jpg')
 					.col-md-4.mb-4
 						.card.rounded-lg.overflow-hidden.hvr-float
 								.card-body.px-5.pt-4
-									a.h5.text-dark.stretched-link(href="cupom.html") Cupom de desconto
+									i.fas.fa-piggy-bank.fa-2x.d-block.text-center
+									a.h5.text-dark.stretched-link.text-center.d-block.mt-3(href="cupom.html") Cupom de desconto
 									p.text-muted.my-2 Replacer is the modern and powerful theme for making landing pages on Bootstrap 4. You may customize
-									img.card-img-top(alt='Photo' src='/images/photos/1200x800/5.jpg')
 					.col-md-4.mb-4
 						.card.rounded-lg.overflow-hidden.hvr-float
 								.card-body.px-5.pt-4
-									a.h5.text-dark.stretched-link(href="contador-visitas.html") Contador de visitas
+									i.fas.fa-globe.fa-2x.d-block.text-center
+									a.h5.text-dark.stretched-link.text-center.d-block.mt-3(href="contador-visitas.html") Contador de visitas
 									p.text-muted.my-2 Replacer is the modern and powerful theme for making landing pages on Bootstrap 4. You may customize
-									img.card-img-top(alt='Photo' src='/images/photos/1200x800/5.jpg')
 				.row
 					.col-md-4.mb-4
 						.card.rounded-lg.overflow-hidden.hvr-float
 								.card-body.px-5.pt-4
-									a.h5.text-dark.stretched-link(href="coletor-lead.html") Coletor de lead
+									i.fas.fa-envelope-open.fa-2x.d-block.text-center
+									a.h5.text-dark.stretched-link.text-center.d-block.mt-3(href="coletor-email.html") Coletor de emails
 									p.text-muted.my-2 Replacer is the modern and powerful theme for making landing pages on Bootstrap 4. You may customize
-									img.card-img-top(alt='Photo' src='/images/photos/1200x800/5.jpg')
 					.col-md-4.mb-4
 						.card.rounded-lg.overflow-hidden.hvr-float
 								.card-body.px-5.pt-4
-									a.h5.text-dark.stretched-link(href="compra-recente") Compra mais recente
+									i.fas.fa-funnel-dollar.fa-2x.d-block.text-center
+									a.h5.text-dark.stretched-link.text-center.d-block.mt-3(href="compra-recente.html") Compra mais recente
 									p.text-muted.my-2 Replacer is the modern and powerful theme for making landing pages on Bootstrap 4. You may customize
-									img.card-img-top(alt='Photo' src='/images/photos/1200x800/5.jpg')
 					.col-md-4.mb-4
 						.card.rounded-lg.overflow-hidden.hvr-float
 								.card-body.px-5.pt-4
-									a.h5.text-dark.stretched-link(href="contador-conversao.html") Contador de conversões
+									i.fas.fa-comment-dollar.fa-2x.d-block.text-center
+									a.h5.text-dark.stretched-link.text-center.d-block.mt-3(href="contador-conversao.html") Contador de conversões
 									p.text-muted.my-2 Replacer is the modern and powerful theme for making landing pages on Bootstrap 4. You may customize
-									img.card-img-top(alt='Photo' src='/images/photos/1200x800/5.jpg')
 				.row
 					.col-md-4.mb-4
 						.card.rounded-lg.overflow-hidden.hvr-float
 								.card-body.px-5.pt-4
-									a.h5.text-dark.stretched-link(href="video.html") Video
+									i.fas.fa-video.fa-2x.d-block.text-center
+									a.h5.text-dark.stretched-link.text-center.d-block.mt-3(href="video.html") Video
 									p.text-muted.my-2 Replacer is the modern and powerful theme for making landing pages on Bootstrap 4. You may customize
-									img.card-img-top(alt='Photo' src='/images/photos/1200x800/5.jpg')
 					.col-md-4.mb-4
 						.card.rounded-lg.overflow-hidden.hvr-float
 								.card-body.px-5.pt-4
-									a.h5.text-dark.stretched-link(href="compartilhamento-social.html") Compartilhamento social
+									i.fas.fa-share-alt.fa-2x.d-block.text-center
+									a.h5.text-dark.stretched-link.text-center.d-block.mt-3(href="compartilhamento-social.html") Compartilhamento social
 									p.text-muted.my-2 Replacer is the modern and powerful theme for making landing pages on Bootstrap 4. You may customize
-									img.card-img-top(alt='Photo' src='/images/photos/1200x800/5.jpg')
 					.col-md-4.mb-4
 						.card.rounded-lg.overflow-hidden.hvr-float
 								.card-body.px-5.pt-4
-									a.h5.text-dark.stretched-link(href="depoimento-aleatorio.html") Depoimento aleatório
+									i.fas.fa-random.fa-2x.d-block.text-center
+									a.h5.text-dark.stretched-link.text-center.d-block.mt-3(href="depoimento-aleatorio.html") Depoimento aleatório
 									p.text-muted.my-2 Replacer is the modern and powerful theme for making landing pages on Bootstrap 4. You may customize
-									img.card-img-top(alt='Photo' src='/images/photos/1200x800/5.jpg')
 				.row
 					.col-md-4.mb-4
 						.card.rounded-lg.overflow-hidden.hvr-float
 								.card-body.px-5.pt-4
-									a.h5.text-dark.stretched-link(href="feedback-emoji.html") Feedback com emoji
+									i.fas.fa-smile-beam.fa-2x.d-block.text-center
+									a.h5.text-dark.stretched-link.text-center.d-block.mt-3(href="feedback-emoji.html") Feedback com emoji
 									p.text-muted.my-2 Replacer is the modern and powerful theme for making landing pages on Bootstrap 4. You may customize
-									img.card-img-top(alt='Photo' src='/images/photos/1200x800/5.jpg')
 					.col-md-4.mb-4
 						.card.rounded-lg.overflow-hidden.hvr-float
 								.card-body.px-5.pt-4
-									a.h5.text-dark.stretched-link(href="notificacao-cookie.html") Notificação de cookies
+									i.fas.fa-cookie.fa-2x.d-block.text-center
+									a.h5.text-dark.stretched-link.text-center.d-block.mt-3(href="notificacao-cookie.html") Notificação de cookies
 									p.text-muted.my-2 Replacer is the modern and powerful theme for making landing pages on Bootstrap 4. You may customize
-									img.card-img-top(alt='Photo' src='/images/photos/1200x800/5.jpg')
 					.col-md-4.mb-4
 						.card.rounded-lg.overflow-hidden.hvr-float
 								.card-body.px-5.pt-4
-									a.h5.text-dark.stretched-link(href="feedback-pontuacao.html") Feedback por pontuação
+									i.fas.fa-sort-numeric-up.fa-2x.d-block.text-center
+									a.h5.text-dark.stretched-link.text-center.d-block.mt-3(href="feedback-pontuacao.html") Feedback por pontuação
 									p.text-muted.my-2 Replacer is the modern and powerful theme for making landing pages on Bootstrap 4. You may customize
-									img.card-img-top(alt='Photo' src='/images/photos/1200x800/5.jpg')
 				.row
 					.col-md-4.mb-4
 						.card.rounded-lg.overflow-hidden.hvr-float
 								.card-body.px-5.pt-4
-									a.h5.text-dark.stretched-link(href="coletor-telefone.html") Coletor de telefone
+									i.fas.fa-user-plus.fa-2x.d-block.text-center
+									a.h5.text-dark.stretched-link.text-center.d-block.mt-3(href="coletor-telefone.html") Coletor de telefone
 									p.text-muted.my-2 Replacer is the modern and powerful theme for making landing pages on Bootstrap 4. You may customize
-									img.card-img-top(alt='Photo' src='/images/photos/1200x800/5.jpg')
 					.col-md-4.mb-4
 						.card.rounded-lg.overflow-hidden.hvr-float
 								.card-body.px-5.pt-4
-									a.h5.text-dark.stretched-link(href="contagem-regressiva.html") Contagem regressiva
+									i.fas.fa-clock.fa-2x.d-block.text-center
+									a.h5.text-dark.stretched-link.text-center.d-block.mt-3(href="contagem-regressiva.html") Contagem regressiva
 									p.text-muted.my-2 Replacer is the modern and powerful theme for making landing pages on Bootstrap 4. You may customize
-									img.card-img-top(alt='Photo' src='/images/photos/1200x800/5.jpg')
 					.col-md-4
 						.card.rounded-lg.overflow-hidden.hvr-float
 								.card-body.px-5.pt-4
-									a.h5.text-dark.stretched-link(href="imagem.html") Imagem
+									i.fas.fa-image.fa-2x.d-block.text-center
+									a.h5.text-dark.stretched-link.text-center.d-block.mt-3(href="imagem.html") Imagem
 									p.text-muted.my-2 Replacer is the modern and powerful theme for making landing pages on Bootstrap 4. You may customize
-									img.card-img-top(alt='Photo' src='/images/photos/1200x800/5.jpg')
 
 
 

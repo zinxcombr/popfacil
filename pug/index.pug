@@ -52,7 +52,7 @@ html(lang="pt-br")
 
 
 		// COUNTERS
-		#counters.pt-12.pb-8
+		.pt-12.pb-8
 			.container
 				.row
 					.col-lg-3.col-md-6.col-sm-12.text-center.mb-5
@@ -91,8 +91,7 @@ html(lang="pt-br")
 
 
 		// TABS
-		#tabs
-			.container
+		.container
 				.row
 					.col.text-center
 						nav.mb-5
@@ -107,7 +106,7 @@ html(lang="pt-br")
 					.tab-pane.fade.show.active(id="tab-1" role="tabpanel" aria-labelledby="nav-tab-1")
 						.row
 							.col-lg-8.col-md-12.col-sm-12.order-lg-1.order-xl-1.my-auto(data-aos="fade-up")
-								img.w-100.mb-5(alt='Macbook' src='/images/devices/macbook_01.png')
+								img.w-100.mb-5.zoom(alt='Macbook' src='/images/devices/macbook_01.png')
 							.col-lg-2.col-md-12.col-sm-12.my-auto.order-lg-0.order-xl-0(data-aos="fade-right")
 								.icon.rounded.text-secondary.bg-secondary-light.mb-3
 									i.fas.fa-cloud-download-alt
@@ -121,7 +120,7 @@ html(lang="pt-br")
 					.tab-pane.fade.show(id="tab-2" role="tabpanel" aria-labelledby="nav-tab-2")
 						.row
 							.col-lg-8.col-md-12.col-sm-12.order-lg-1.order-xl-1.my-auto
-								img.w-100.mb-5(alt='Macbook' src='/images/devices/macbook_02.png')
+								img.w-100.mb-5.zoom(alt='Macbook' src='/images/devices/macbook_02.png')
 							.col-lg-2.col-md-12.col-sm-12.my-auto.order-lg-0.order-xl-0
 								.icon.rounded.text-secondary.bg-secondary-light.mb-3
 									i.fas.fa-paint-brush
@@ -135,7 +134,7 @@ html(lang="pt-br")
 					.tab-pane.fade.show(id="tab-3" role="tabpanel" aria-labelledby="nav-tab-3")
 						.row
 							.col-lg-8.col-md-12.col-sm-12.order-lg-1.order-xl-1.my-auto
-								img.w-100.mb-5(alt='Macbook' src='/images/devices/macbook_03.png')
+								img.w-100.mb-5.zoom(alt='Macbook' src='/images/devices/macbook_03.png')
 							.col-lg-2.col-md-12.col-sm-12.my-auto.order-lg-0.order-xl-0
 								.icon.rounded.text-secondary.bg-secondary-light.mb-3
 									i.fas.fa-file
@@ -169,19 +168,19 @@ html(lang="pt-br")
 									h3.h5 Controle de Exibição
 									p.text-muted.mr-5 Replacer has an extremely solid and clean design to focus your visitors on what you want to tell them, and this lightweight design will never go out of trends
 						hr.mt-2.mb-4
-						a.btn-link.text-muted(href="#")
+						a.btn-link.text-muted(href="/solucoes")
 							i.fas.fa-compass.mr-2
-							| Saiba mais
+							| Ver Soluções
 
 
 		// SPLIT
-		#split.bg-light.border-top.border-bottom.py-4
+		#split.bg-light.border-top.border-bottom.pt-6.pb-14
 			.container
 				.row.my-auto
 					
 					.col-lg-5.col-md-12.col-sm-12.my-auto.py-8.mr-auto(data-aos="fade")
-						.initialism.mb-4.text-muted Exemplos de exibição
-						h5.mb-2 Muitas Aplicações 
+						.initialism.mb-4.text-muted Voce escolhe a aplicacao
+						h5.mb-2 Use para Marketing ou Informativo
 						p.lead.mb-5.mr-5 Replacer is a perfect tool to start making landing pages with Bootstrap 4. We provide content-oriented, clean, and mobile-first layouts, which you can easily customize for your needs. Here are some carefully designed demos, use it out of the box or customize the way you want. We also made illustrations and line icons, lorem ipsum dolor set amet
 						hr.mb-4
 						a.btn-link.text-primary.hvr-icon-forward(href="/widgets")
@@ -190,14 +189,12 @@ html(lang="pt-br")
 								i.fas.fa-chevron-right.ml-2.hvr-icon
 
 
-					.col-lg-6.col-md-12.col-sm-12.my-auto(data-aos="fade-left")
+					.col-lg-7.col-md-12.col-sm-12.my-auto(data-aos="fade-left")
 						.carousel-1-arrows.arrows-white
 							.card.rounded.overflow-hidden.border-0
-								img.w-100(alt='Slide' src='/images/photos/slide3.jpg')
+								img.w-100(alt='Slide' src='/images/demo-2.png')
 							.card.rounded.overflow-hidden.border-0
-								img.w-100(alt='Slide' src='/images/photos/slide2.jpg')
-							.card.rounded.overflow-hidden.border-0
-								img.w-100(alt='Slide' src='/images/photos/slide1.jpg')
+								img.w-100(alt='Slide' src='/images/demo-1.png')
 
 									
 
@@ -209,7 +206,7 @@ html(lang="pt-br")
 					.col
 						h2.display-3.mb-4
 							| 1000+ clientes
-						a.btn-link.hvr-icon-forward(href="/pages/page-apply.html")
+						a.btn-link.hvr-icon-forward(href="/contato.html")
 							| Deixe sua opinião também
 							small
 								i.fas.fa-chevron-right.ml-2.hvr-icon

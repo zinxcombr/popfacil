@@ -13,8 +13,12 @@ html(lang="pt-br")
 				.row
 					.col
 						hr.mt-10
-						include /utilities/_breadcrumb.pug
-						+breadcrumb-mixin('text-muted', ['Home', 'Pages', 'Pricing'])
+						nav.mb-0.pt-3.pb-1(aria-label='breadcrumb')
+							ol.breadcrumb.mb-0
+								li.breadcrumb-item.text-muted
+									| Home
+								li.breadcrumb-item.active(aria-current="page")
+									| Versão Gratuita
 			#title.container
 				.row
 					.col.text-center.pt-8
@@ -33,7 +37,7 @@ html(lang="pt-br")
 							img(alt='Icon' src='/images/icons/primary/cursor-click-2.svg', height='48')
 						h5.mb-3 Content-oriented design
 						p.lead.mb-5.mx-0.mx-md-6.mx-lg-8 Replacer is a perfect tool to start making landing pages with Bootstrap 4. We provide content-oriented, clean, and mobile-first layouts, which you can easily customize for your needs. Here are some carefully designed demos, use it out of the box or customize the way you want
-						a.btn-link.text-primary.hvr-icon-forward(href="/pages/page-apply.html")
+						a.btn-link.text-primary.hvr-icon-forward(href="https://popkit.site/register")
 							| Quero minha conta 
 							small
 								i.fas.fa-chevron-right.ml-2.hvr-icon
