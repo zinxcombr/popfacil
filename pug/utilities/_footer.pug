@@ -64,11 +64,12 @@ mixin light-footer(lead_bg_color, lead_border_color, lead_text_color, lead_btn_c
 
 					p.small(class=text_color) Inscreva-se em nossa newsletter para receber novidades e promoções da PopFácil
 
-					.input-group.mb-3.p-0.rounded
-						input.form-control.p-3.border-0.rounded-left(type='text', placeholder="Seu melhor email", aria-label="Recipient's email", aria-describedby='button-addon', class=subscribe_bg)
-						.input-group-append
-							button#button-addon.btn.px-3.border-0(type='button', class=subscribe_button + ' ' + link_color)
-								i.fas.fa-paper-plane  
+					form(name="novidades", method="POST", data-netlify="true", action="/avisos/novidades-sucesso.html")
+						.input-group.mb-3.p-0.rounded
+								input.form-control.p-3.border-0.rounded-left(type='text', placeholder="Seu melhor email", name="email", class=subscribe_bg)
+								.input-group-append
+									button#button-addon.btn.px-3.border-0(type='submit', class=subscribe_button + ' ' + link_color)
+										i.fas.fa-paper-plane  
 
 					span
 						a(href='#', class=link_color)
